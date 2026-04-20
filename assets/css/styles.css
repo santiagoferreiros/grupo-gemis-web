@@ -304,7 +304,7 @@ h1 { margin: 0 0 26px; max-width: 920px; font-size: clamp(48px, 7vw, 92px); }
 .card-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; }
 .card-grid.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .card-grid.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-.team-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; }
+.team-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 18px; }
 
 .card, .mini-card { position: relative; overflow: hidden; border-radius: var(--radius-lg); padding: 26px; transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease; }
 .card { display: flex; flex-direction: column; }
@@ -320,7 +320,7 @@ h1 { margin: 0 0 26px; max-width: 920px; font-size: clamp(48px, 7vw, 92px); }
 .clean-list li::before { content: ""; position: absolute; top: 11px; left: 0; width: 8px; height: 8px; border-radius: 50%; background: var(--blue); }
 
 .avatar { width: 108px; height: 108px; margin: 0 auto 18px; display: grid; place-items: center; border: 6px solid rgba(17, 85, 204, 0.66); border-radius: 50%; color: var(--ink); font: 800 31px/1 "Sora", sans-serif; background: linear-gradient(135deg, #fff, var(--panel-soft)); }
-.team-card { text-align: center; }
+.team-card { text-align: center; flex: 0 0 240px;}
 .role { display: block; margin-bottom: 9px; color: var(--blue); font-weight: 800; font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; }
 
 .details-block { border-radius: 24px; overflow: hidden; margin-bottom: 14px; }
@@ -351,7 +351,7 @@ h1 { margin: 0 0 26px; max-width: 920px; font-size: clamp(48px, 7vw, 92px); }
   .nav-links { display: none; }
   .nav-toggle { display: inline-flex; }
   .hero-grid, .section-head, .grid-two, .contact-layout { grid-template-columns: 1fr; }
-  .card-grid, .team-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .card-grid, .team-grid { grid-template-columns: repeat(2, 240px); justify-content: center; }
   .card-grid.three, .card-grid.two { grid-template-columns: 1fr; }
 }
 
@@ -366,7 +366,7 @@ h1 { margin: 0 0 26px; max-width: 920px; font-size: clamp(48px, 7vw, 92px); }
   .hero-copy { font-size: 18px; }
   .actions .button { width: 100%; }
   .section { padding: 56px 0; }
-  .card-grid, .team-grid { grid-template-columns: 1fr; }
+  .card-grid, .team-grid { grid-template-columns: 240px; justify-content: center; }
   .panel, .visual-card, .cta { padding: 24px; border-radius: 26px; }
   .footer-inner { flex-direction: column; }
 }
