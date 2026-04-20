@@ -98,15 +98,14 @@ a { color: inherit; text-decoration: none; }
 }
 
 .brand-logo {
-  width: 166px;
-  max-height: 48px;
+  width: 174px;
+  height: auto;
+  max-height: 52px;
   object-fit: contain;
-  display: none;
+  display: block;
 }
 
-.brand.has-logo .brand-logo { display: block; }
-.brand.has-logo .brand-fallback { display: none; }
-.brand-fallback { display: inline-flex; align-items: center; gap: 10px; }
+.brand-fallback { display: none; align-items: center; gap: 10px; }
 
 .brand-mark {
   width: 34px;

@@ -87,19 +87,16 @@ Si el dominio está en Squarespace, se puede apuntar a Vercel desde DNS cuando e
 
 ## Logo
 
-Cuando tengas el logo como SVG/PNG:
+El logo principal ya está guardado en:
 
-1. Guardarlo en `assets/img/logo-gemis.svg`.
-2. En cada página, reemplazar:
-
-```html
-<img class="brand-logo" src="" alt="Grupo Gemis" data-logo>
+```txt
+assets/img/logo-gemis.png
 ```
 
-por:
+Todas las páginas lo usan con:
 
 ```html
-<img class="brand-logo" src="/assets/img/logo-gemis.svg" alt="Grupo Gemis" data-logo>
+<img class="brand-logo" src="/assets/img/logo-gemis.png" alt="Grupo Gemis" data-logo>
 ```
 
 ## Formularios
