@@ -68,13 +68,15 @@ En producción sería:
 https://www.grupogemis.com/maintenance/
 ```
 
-Para activar mantenimiento global en Vercel:
+El sitio está actualmente configurado para mostrar mantenimiento global desde `vercel.json`.
 
-1. Renombrar `vercel.json` a `vercel.production.json`.
-2. Renombrar `vercel.maintenance.json` a `vercel.json`.
+Para volver al sitio normal:
+
+1. Renombrar `vercel.json` a `vercel.maintenance.json`.
+2. Renombrar `vercel.production.json` a `vercel.json`.
 3. Commit + push a `main`.
 
-Para volver al sitio normal, invertir los nombres de esos archivos y pushear de nuevo.
+Para volver a activar mantenimiento más adelante, invertir nuevamente esos nombres y pushear.
 
 ## Deploy en Vercel
 

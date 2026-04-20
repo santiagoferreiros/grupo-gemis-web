@@ -357,6 +357,7 @@ h1 { margin: 0 0 26px; max-width: 920px; font-size: clamp(48px, 7vw, 92px); }
 .maintenance-shell {
   display: grid;
   gap: 34px;
+  max-width: 980px;
 }
 
 .maintenance-brand {
@@ -367,9 +368,7 @@ h1 { margin: 0 0 26px; max-width: 920px; font-size: clamp(48px, 7vw, 92px); }
   position: relative;
   overflow: hidden;
   display: grid;
-  grid-template-columns: minmax(0, 0.95fr) minmax(360px, 0.62fr);
-  gap: 36px;
-  align-items: stretch;
+  align-items: start;
   padding: clamp(28px, 5vw, 58px);
   border: 1px solid rgba(223, 230, 242, 0.9);
   border-radius: var(--radius-xl);
@@ -387,60 +386,14 @@ h1 { margin: 0 0 26px; max-width: 920px; font-size: clamp(48px, 7vw, 92px); }
   pointer-events: none;
 }
 
-.maintenance-content,
-.maintenance-status {
+.maintenance-content {
   position: relative;
   z-index: 1;
 }
 
 .maintenance-content h1 {
-  max-width: 850px;
+  max-width: 720px;
   font-size: clamp(46px, 6.3vw, 86px);
-}
-
-.maintenance-status {
-  display: grid;
-  align-content: space-between;
-  gap: 22px;
-  min-height: 430px;
-  padding: 24px;
-  border: 1px solid rgba(223, 230, 242, 0.88);
-  border-radius: var(--radius-lg);
-  background: rgba(255, 255, 255, 0.7);
-}
-
-.maintenance-status .orbit {
-  min-height: 245px;
-}
-
-.maintenance-status p {
-  margin: 0;
-  color: var(--slate);
-  font-weight: 700;
-}
-
-.status-pill {
-  width: fit-content;
-  min-height: 38px;
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  padding: 0 14px;
-  color: var(--blue);
-  background: var(--blue-soft);
-  border: 1px solid rgba(17, 85, 204, 0.16);
-  border-radius: 999px;
-  font-weight: 800;
-  font-size: 13px;
-}
-
-.status-pill::before {
-  content: "";
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  background: var(--blue);
-  box-shadow: 0 0 0 7px rgba(17, 85, 204, 0.08);
 }
 
 .footer { padding: 42px 0 54px; color: var(--muted); }
@@ -476,6 +429,5 @@ h1 { margin: 0 0 26px; max-width: 920px; font-size: clamp(48px, 7vw, 92px); }
   .maintenance-main { padding: 26px 0; }
   .maintenance-card { padding: 24px; border-radius: 26px; }
   .maintenance-content h1 { font-size: clamp(40px, 13vw, 58px); }
-  .maintenance-status { min-height: 360px; padding: 20px; }
   .footer-inner { flex-direction: column; }
 }
