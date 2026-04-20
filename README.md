@@ -7,6 +7,7 @@ Sitio estático listo para Vercel con cuatro entradas principales:
 - `/consulting` - Grupo Gemis Consulting
 - `/academy` - Grupo Gemis Academy
 - `/contact` - Contacto
+- `/maintenance` - Sitio en mantenimiento
 
 ## Por qué Vercel
 
@@ -25,6 +26,7 @@ grupo-gemis-web/
   consulting/index.html
   academy/index.html
   contact/index.html
+  maintenance/index.html
   assets/css/styles.css
   assets/js/main.js
   assets/img/
@@ -51,6 +53,28 @@ También podés usar directamente:
 ```bash
 python3 -m http.server 3000
 ```
+
+## Página de mantenimiento
+
+La página de mantenimiento está disponible en:
+
+```text
+http://localhost:3000/maintenance/
+```
+
+En producción sería:
+
+```text
+https://www.grupogemis.com/maintenance/
+```
+
+Para activar mantenimiento global en Vercel:
+
+1. Renombrar `vercel.json` a `vercel.production.json`.
+2. Renombrar `vercel.maintenance.json` a `vercel.json`.
+3. Commit + push a `main`.
+
+Para volver al sitio normal, invertir los nombres de esos archivos y pushear de nuevo.
 
 ## Deploy en Vercel
 
