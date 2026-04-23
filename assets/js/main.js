@@ -147,24 +147,36 @@ if (
   });
 }
 
-//Logica Modal Papers
+
+
+//PAPERS: Actualizable por json
+const papersKnowledgeManagement = document.getElementById('papers-knowledge-management');
+const papersArtificialIntelligence = document.getElementById('papers-artificial-intelligence');
+const papersEducationTics = document.getElementById('papers-education-tics');
+
 const paperModal = document.getElementById('paperModal');
 const modalPaperTitle = document.getElementById('modalPaperTitle');
 const modalPaperDescription = document.getElementById('modalPaperDescription');
 const modalPaperCitation = document.getElementById('modalPaperCitation');
 const modalPaperActions = document.getElementById('modalPaperActions');
-
-const paperItems = document.querySelectorAll('.paper-item');
 const closePaperModalButtons = document.querySelectorAll('[data-close-paper-modal]');
 
 if (
+  papersKnowledgeManagement &&
+  papersArtificialIntelligence &&
+  papersEducationTics &&
   paperModal &&
   modalPaperTitle &&
   modalPaperDescription &&
   modalPaperCitation &&
-  modalPaperActions &&
-  paperItems.length
+  modalPaperActions
 ) {
+  const paperContainers = {
+    'knowledge-management': papersKnowledgeManagement,
+    'artificial-intelligence': papersArtificialIntelligence,
+    'education-tics': papersEducationTics
+  };
+
   const renderPaperLines = (container, value) => {
     container.innerHTML = '';
 
@@ -180,23 +192,16 @@ if (
     });
   };
 
-  const openPaperModal = (item) => {
-    const title = item.dataset.paperTitle || '';
-    const description = item.dataset.paperDescription || '';
-    const citation = item.dataset.paperCitation || '';
-    const pdf = item.dataset.paperPdf || '';
-
-    modalPaperTitle.textContent = title;
-    modalPaperDescription.textContent = description;
-    renderPaperLines(modalPaperCitation, citation);
+  const openPaperModal = (paper) => {
+    modalPaperTitle.textContent = paper.title || '';
+    modalPaperDescription.textContent = paper.description || '';
+    renderPaperLines(modalPaperCitation, paper.citation || '');
 
     modalPaperActions.innerHTML = '';
 
-    if (pdf) {
+    if (paper.pdf) {
       const pdfButton = document.createElement('a');
-      pdfButton.href = pdf;
-      pdfButton.target = '_blank';
-      pdfButton.rel = 'noopener noreferrer';
+      pdfButton.href = paper.pdf;
       pdfButton.className = 'button primary';
       pdfButton.textContent = 'Acceder al PDF';
       modalPaperActions.appendChild(pdfButton);
@@ -213,16 +218,51 @@ if (
     document.body.classList.remove('modal-open');
   };
 
-  paperItems.forEach((item) => {
-    item.addEventListener('click', () => openPaperModal(item));
+  const createPaperCard = (paper) => {
+    const article = document.createElement('article');
+    article.className = 'paper-item';
+    article.setAttribute('tabindex', '0');
+    article.setAttribute('role', 'button');
 
-    item.addEventListener('keydown', (event) => {
+    const title = document.createElement('h3');
+    title.textContent = paper.title || '';
+
+    const description = document.createElement('p');
+    description.textContent = paper.description || '';
+
+    article.appendChild(title);
+    article.appendChild(description);
+
+    article.addEventListener('click', () => openPaperModal(paper));
+    article.addEventListener('keydown', (event) => {
       if (event.key === 'Enter' || event.key === ' ') {
         event.preventDefault();
-        openPaperModal(item);
+        openPaperModal(paper);
       }
     });
-  });
+
+    return article;
+  };
+
+  fetch('/assets/data/papers.json')
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error('No se pudo cargar papers.json');
+      }
+      return response.json();
+    })
+    .then((papers) => {
+      papers.forEach((paper) => {
+        const container = paperContainers[paper.category];
+        if (!container) return;
+
+        const card = createPaperCard(paper);
+        container.appendChild(card);
+      });
+    })
+    .catch((error) => {
+      console.error('Error cargando papers:', error);
+    });
 
   closePaperModalButtons.forEach((button) => {
     button.addEventListener('click', closePaperModal);

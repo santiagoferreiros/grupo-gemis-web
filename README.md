@@ -21,13 +21,17 @@ Sitio estático listo para Vercel con cuatro entradas principales:
 ```text
 grupo-gemis-web/
   index.html
-  research/index.html
+  research/
+    index.html
+    papers/index.html
   consulting/index.html
   academy/index.html
   contact/index.html
-  assets/css/styles.css
-  assets/js/main.js
-  assets/img/
+  assets/
+    css/styles.css
+    js/main.js
+    img/
+    data/papers.json
   vercel.json
   package.json
 ```
@@ -84,6 +88,7 @@ Si el dominio está en Squarespace, se puede apuntar a Vercel desde DNS cuando e
 - Estilos globales: editar `assets/css/styles.css`.
 - Animaciones/interacciones: editar `assets/js/main.js`.
 - Imágenes/logo: subir a `assets/img/` y cambiar los `src`.
+- Publicaciones: editar en `assets/data/papers.json`
 
 ## Logo
 
@@ -111,3 +116,19 @@ Hoy `/contact` usa email directo como placeholder. Opciones recomendadas:
 ## Notas
 
 Este proyecto reemplaza la necesidad de usar Apps Script como hosting y evita los problemas de layout de Squarespace. Apps Script puede seguir usándose como backend si se necesita guardar consultas en Sheets o disparar automatizaciones.
+
+## Publicaciones / Papers
+
+Editar `assets/data/papers.json` con el formato:
+```text
+{
+  "category": "knowledge-management",
+  "title": "Nuevo paper",
+  "description": "Descripción del paper.",
+  "citation": "Autor, A. (2026). Nuevo paper.",
+  "pdf": "/assets/papers/nuevo-paper.pdf"
+}
+```
+
+> [!TIP]
+> Las categorias son: knowledge-management, artificial-intelligence o education-tics
