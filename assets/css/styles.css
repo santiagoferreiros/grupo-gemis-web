@@ -642,3 +642,38 @@ body.modal-open {
     font-size: 16px;
   }
 }
+
+.papers-list {
+  display: grid;
+  gap: 14px;
+}
+
+.paper-item {
+  padding: 22px 24px;
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(223, 230, 242, 0.96);
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.paper-item:hover {
+  transform: translateY(-3px);
+  border-color: rgba(17, 85, 204, 0.22);
+}
+
+.paper-item:focus-visible {
+  outline: 2px solid rgba(17, 85, 204, 0.38);
+  outline-offset: 4px;
+}
+
+.paper-item h3 {
+  margin: 0 0 10px;
+}
+
+.paper-item p {
+  margin: 0;
+  color: var(--slate);
+  line-height: 1.6;
+}
