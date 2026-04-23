@@ -106,16 +106,31 @@
                 <details class="details-block" open data-reveal>
                     <summary>Proyectos vigentes</summary>
                     <div class="details-body card-grid three">
-                        <article class="mini-card">
+                        <article class="mini-card project-card"
+                            data-title="Creación de un modelo integral de gestión del conocimiento para las PyMes argentinas"
+                            data-description="El proyecto tiene como objetivo definir un modelo integral de gestión del conocimiento aplicable a pequeñas y medianas empresas de la Argentina, considerando sus características y sus dificultades, proponiendo una metodología de implementación del modelo y diseñando materiales para facilitar su implementación."
+                            data-location="Universidad Tecnológica Nacional|Facultad Regional Buenos Aires"
+                            data-team="María Florencia Pollo Cattaneo (directora)|Luciano Straccia (Codirector)|Cinthia Vegega|Alejandra Vazquez|Ignacio Bengochea|Brenda Baruzzini|Camila Berro|Jonathan Buzzetti"
+                            data-period="Abril 2025 – Marzo 2027" data-publications="/research/papers/">
                             <h3>Modelo integral de gestión del conocimiento para PyMEs argentinas (2025-2027)</h3>
                             <p>Modelo aplicable a pequeñas y medianas empresas, con metodología y materiales para
                                 facilitar su adopción.</p>
                         </article>
-                        <article class="mini-card">
+                        <article class="mini-card project-card"
+                            data-title="Observatorio Tecnológico de la Gestión del Conocimiento"
+                            data-description="Este proyecto busca describir, analizar y presentar la situación de la gestión del conocimiento en la Ciudad de Buenos Aires a través de la construcción de un observatorio tecnológico. Se espera obtener como resultado una aplicación que permita navegar las diferentes comunas y visualizar datos asociados a las características de las organizaciones que aplican gestión del conocimiento."
+                            data-location="Universidad Tecnológica Nacional|Facultad Regional Buenos Aires"
+                            data-team="Luciano Straccia (Director)|Ayelén Zanitti|Alejandra Vazquez|Adriana Maulini|Jonathan Buzzetti"
+                            data-period="Abril 2023 – Marzo 2025" data-publications="/research/papers/">
                             <h3>Observatorio tecnológico de Gestión del Conocimiento en CABA (2023-2025)</h3>
                             <p>Observatorio con datos sistematizados, acceso libre y navegación por comunas.</p>
                         </article>
-                        <article class="mini-card">
+                        <article class="mini-card project-card"
+                            data-title="Inteligencia Artificial para el análisis predictivo en salud mental"
+                            data-description="El proyecto apunta a incorporar inteligencia artificial en salud mental hacia una atención médica predictiva, preventiva, personalizada y de precisión. Su objetivo principal es desarrollar algoritmos predictivos para el diagnóstico temprano de trastornos de salud mental, incluyendo depresión, y aplicar aprendizaje automático para análisis predictivo de datos clínicos, perfilado de riesgo y apoyo a la decisión clínica."
+                            data-location="Universidad Tecnológica Nacional|Facultad Regional Buenos Aires"
+                            data-team="Pollo Cattaneo María Florencia (Directora)|Federico Maleh|Pablo Gonzalo Pytel|Cinthia Soledad Vegega|Parag Chatterjee|Agustín Sabelli|Martín Daniel Di Felice|Jorge Omar Norscini|Hugo Eliseo Ramón|Ariel Deroche|Chabela Lamas"
+                            data-period="Abril 2023 – Marzo 2026" data-publications="/research/papers/">
                             <h3>IA para análisis predictivo en salud mental (2023-2025)</h3>
                             <p>Algoritmos predictivos para diagnóstico temprano, perfilado de riesgo y apoyo a decisión
                                 clínica.</p>
@@ -268,6 +283,40 @@
             <p><a href="/">Grupo Gemis</a></p>
         </div>
     </footer>
+
+    <div class="modal" id="projectModal" aria-hidden="true">
+        <div class="modal-backdrop" data-close-modal></div>
+
+        <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalProjectTitle">
+            <button class="modal-close" type="button" data-close-modal aria-label="Cerrar">×</button>
+
+            <div class="modal-header">
+                <span class="modal-kicker">Proyecto de investigación</span>
+                <h2 id="modalProjectTitle"></h2>
+                <p class="modal-description" id="modalProjectDescription"></p>
+            </div>
+
+            <div class="modal-content">
+                <section class="modal-section">
+                    <span class="modal-label">Radicado en</span>
+                    <div class="modal-lines" id="modalProjectLocation"></div>
+                </section>
+
+                <section class="modal-section">
+                    <span class="modal-label">Equipo de trabajo</span>
+                    <ul class="modal-team-list" id="modalProjectTeam"></ul>
+                </section>
+
+                <section class="modal-section">
+                    <span class="modal-label">Período del proyecto</span>
+                    <div class="modal-lines" id="modalProjectPeriod"></div>
+                </section>
+            </div>
+
+            <div class="modal-actions" id="modalProjectActions"></div>
+        </div>
+    </div>
+
     <script src="/assets/js/main.js"></script>
 </body>
 
