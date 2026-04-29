@@ -147,7 +147,114 @@ if (
   });
 }
 
+const eventModal = document.getElementById('eventModal');
+const modalEventTitle = document.getElementById('modalEventTitle');
+const modalEventDescription = document.getElementById('modalEventDescription');
+const modalEventEditions = document.getElementById('modalEventEditions');
+const eventCards = document.querySelectorAll('.event-card');
+const closeEventModalButtons = document.querySelectorAll('[data-close-event-modal]');
 
+if (
+  eventModal &&
+  modalEventTitle &&
+  modalEventDescription &&
+  modalEventEditions &&
+  eventCards.length
+) {
+  const events = {
+    wkmit: {
+      title: 'International Workshop on Knowledge Management, Innovation and Technologies',
+      description: 'WKMIT es un workshop internacional organizado por GEMIS sobre gestión del conocimiento, innovación y tecnologías, co-localizado con ICAI.',
+      editions: [
+        ['WKMIT 2026', 'Octubre 2026', 'Universidad Central de Florida - USA', 'https://grupogemis.com.ar/icai/wkmit/2026/'],
+        ['WKMIT 2025', 'Octubre 2025', 'Université Mohammed VI Polytechnic - Marruecos', 'https://grupogemis.com.ar/icai/wkmit/2025/'],
+        ['WKMIT 2024', 'Octubre 2024', 'Universidad Andrés Bello - Viña del Mar, Chile', 'https://grupogemis.com.ar/icai/wkmit/2024/'],
+        ['WKMIT 2023', 'Octubre 2023', 'Universidad Ecotec - Guayaquil, Ecuador', 'https://grupogemis.com.ar/icai/wkmit/2023/'],
+        ['WKMIT 2022', 'Octubre 2022', 'Universidad Continental - Arequipa, Perú', 'https://grupogemis.com.ar/icai/wkmit/2022/'],
+        ['WKMIT 2021', 'Octubre 2021', 'Universidad Tecnológica Nacional - Buenos Aires, Argentina', 'https://grupogemis.com.ar/icai/wkmit/2021/']
+      ]
+    },
+    waai: {
+      title: 'International Workshop on Applied Artificial Intelligence',
+      description: 'WAAI es un workshop internacional organizado por GEMIS para reunir investigaciones, aplicaciones y experiencias en inteligencia artificial aplicada.',
+      editions: [
+        ['WAAI 2026', 'Octubre 2026', 'Universidad Central de Florida - USA', 'https://grupogemis.com.ar/icai/waai/2026/'],
+        ['WAAI 2025', 'Octubre 2025', 'Université Mohammed VI Polytechnic - Marruecos', 'https://grupogemis.com.ar/icai/waai/2025/'],
+        ['WAAI 2024', 'Octubre 2024', 'Universidad Andrés Bello - Viña del Mar, Chile', 'https://grupogemis.com.ar/icai/waai/2024/'],
+        ['WAAI 2023', 'Octubre 2023', 'Universidad Ecotec - Guayaquil, Ecuador', 'https://grupogemis.com.ar/icai/waai/2023/'],
+        ['WAAI 2022', 'Octubre 2022', 'Universidad Continental - Arequipa, Perú', 'https://grupogemis.com.ar/icai/waai/2022/'],
+        ['WAAI 2021', 'Octubre 2021', 'Universidad Tecnológica Nacional - Buenos Aires, Argentina', 'https://grupogemis.com.ar/icai/waai/2021/']
+      ]
+    }
+  };
+
+  const renderEventEditions = (editions) => {
+    modalEventEditions.innerHTML = '';
+
+    editions.forEach(([title, date, venue, url]) => {
+      const item = document.createElement('article');
+      item.className = 'event-edition';
+
+      const heading = document.createElement('h3');
+      heading.textContent = title;
+
+      const meta = document.createElement('p');
+      meta.textContent = `${date} · ${venue}`;
+
+      const link = document.createElement('a');
+      link.className = 'button ghost';
+      link.href = url;
+      link.textContent = 'Ir al sitio web';
+
+      item.appendChild(heading);
+      item.appendChild(meta);
+      item.appendChild(link);
+      modalEventEditions.appendChild(item);
+    });
+  };
+
+  const openEventModal = (card) => {
+    const event = events[card.dataset.event];
+    if (!event) return;
+
+    modalEventTitle.textContent = event.title;
+    modalEventDescription.textContent = event.description;
+    renderEventEditions(event.editions);
+
+    eventModal.classList.add('is-open');
+    eventModal.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('modal-open');
+  };
+
+  const closeEventModal = () => {
+    eventModal.classList.remove('is-open');
+    eventModal.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('modal-open');
+  };
+
+  eventCards.forEach((card) => {
+    card.setAttribute('tabindex', '0');
+    card.setAttribute('role', 'button');
+
+    card.addEventListener('click', () => openEventModal(card));
+    card.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        openEventModal(card);
+      }
+    });
+  });
+
+  closeEventModalButtons.forEach((button) => {
+    button.addEventListener('click', closeEventModal);
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && eventModal.classList.contains('is-open')) {
+      closeEventModal();
+    }
+  });
+}
 
 //PAPERS: Actualizable por json
 const papersKnowledgeManagement = document.getElementById('papers-knowledge-management');

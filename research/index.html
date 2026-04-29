@@ -182,6 +182,30 @@
                 </div>
             </div>
         </section>
+        <section class="section" id="eventos">
+            <div class="shell">
+                <div class="section-head" data-reveal>
+                    <div><span class="section-kicker">Eventos</span>
+                        <h2 class="section-title">Eventos organizados.</h2>
+                    </div>
+                    <p class="section-copy">Workshops internacionales organizados por GEMIS en el marco de ICAI, con
+                        ediciones en Argentina, Perú, Ecuador, Chile, Marruecos y Estados Unidos.</p>
+                </div>
+                <div class="card-grid two">
+                    <article class="card event-card" data-event="wkmit" data-reveal>
+                        <span class="card-number">WK</span>
+                        <h3>International Workshop on Knowledge Management, Innovation and Technologies</h3>
+                        <p>Espacio dedicado a gestión del conocimiento, innovación y tecnologías aplicadas.</p>
+                    </article>
+                    <article class="card event-card" data-event="waai" data-reveal>
+                        <span class="card-number">AI</span>
+                        <h3>International Workshop on Applied Artificial Intelligence</h3>
+                        <p>Foro internacional sobre inteligencia artificial aplicada, sistemas inteligentes y
+                            experiencias tecnológicas.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
         <section class="section" id="equipo">
             <div class="shell">
                 <div class="section-head" data-reveal>
@@ -314,6 +338,27 @@
             </div>
 
             <div class="modal-actions" id="modalProjectActions"></div>
+        </div>
+    </div>
+
+    <div class="modal" id="eventModal" aria-hidden="true">
+        <div class="modal-backdrop" data-close-event-modal></div>
+
+        <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalEventTitle">
+            <button class="modal-close" type="button" data-close-event-modal aria-label="Cerrar">×</button>
+
+            <div class="modal-header">
+                <span class="modal-kicker">Evento organizado</span>
+                <h2 id="modalEventTitle"></h2>
+                <p class="modal-description" id="modalEventDescription"></p>
+            </div>
+
+            <div class="modal-content">
+                <section class="modal-section">
+                    <span class="modal-label">Ediciones</span>
+                    <div class="event-editions" id="modalEventEditions"></div>
+                </section>
+            </div>
         </div>
     </div>
 
