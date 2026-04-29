@@ -177,6 +177,21 @@ if (
     'education-tics': papersEducationTics
   };
 
+  const openPaperCategoryFromHash = () => {
+    const category = window.location.hash.replace('#', '');
+    const container = paperContainers[category];
+    if (!container) return;
+
+    const section = document.getElementById(category);
+    const details = section ? section.querySelector('.details-block') : null;
+    if (!details) return;
+
+    details.open = true;
+    window.requestAnimationFrame(() => {
+      section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  };
+
   const renderPaperLines = (container, value) => {
     container.innerHTML = '';
 
@@ -259,10 +274,14 @@ if (
         const card = createPaperCard(paper);
         container.appendChild(card);
       });
+
+      openPaperCategoryFromHash();
     })
     .catch((error) => {
       console.error('Error cargando papers:', error);
     });
+
+  window.addEventListener('hashchange', openPaperCategoryFromHash);
 
   closePaperModalButtons.forEach((button) => {
     button.addEventListener('click', closePaperModal);
