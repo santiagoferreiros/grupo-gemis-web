@@ -284,8 +284,12 @@ if (
     'education-tics': papersEducationTics
   };
 
-  const openPaperCategoryFromHash = () => {
-    const category = window.location.hash.replace('#', '');
+  const getPaperCategoryFromHash = () => {
+    return decodeURIComponent(window.location.hash.replace('#', '')).trim();
+  };
+
+  const openPaperCategoryFromHash = (shouldScroll = false) => {
+    const category = getPaperCategoryFromHash();
     const container = paperContainers[category];
     if (!container) return;
 
@@ -294,9 +298,15 @@ if (
     if (!details) return;
 
     details.open = true;
-    window.requestAnimationFrame(() => {
-      section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    section.querySelectorAll('[data-reveal]').forEach((item) => {
+      item.classList.add('is-visible');
     });
+
+    if (shouldScroll) {
+      window.requestAnimationFrame(() => {
+        section.scrollIntoView({ behavior: 'auto', block: 'start' });
+      });
+    }
   };
 
   const renderPaperLines = (container, value) => {
@@ -382,13 +392,15 @@ if (
         container.appendChild(card);
       });
 
-      openPaperCategoryFromHash();
+      openPaperCategoryFromHash(true);
+      window.setTimeout(() => openPaperCategoryFromHash(true), 80);
     })
     .catch((error) => {
       console.error('Error cargando papers:', error);
     });
 
-  window.addEventListener('hashchange', openPaperCategoryFromHash);
+  openPaperCategoryFromHash();
+  window.addEventListener('hashchange', () => openPaperCategoryFromHash(true));
 
   closePaperModalButtons.forEach((button) => {
     button.addEventListener('click', closePaperModal);
