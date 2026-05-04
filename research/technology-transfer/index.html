@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grupo Gemis Research | Transferencia Tecnol&oacute;gica</title>
+    <meta name="description"
+        content="Transferencia tecnol&oacute;gica del Grupo Gemis: chatbots, inteligencia artificial aplicada, simulaci&oacute;n, soluciones ambientales y proyectos I+D con empresas." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+
+<body data-watermark="Transferencia">
+    <header class="site-header">
+        <div class="shell nav">
+            <a class="brand" href="/">
+                <img class="brand-logo" src="/assets/img/logo-gemis.png" alt="Grupo Gemis" data-logo />
+                <span class="brand-fallback">
+                    <span class="brand-mark">G</span>
+                    <span>gemis</span>
+                </span>
+            </a>
+
+            <nav class="nav-links" data-nav-links>
+                <a href="/">Inicio</a>
+                <a class="active" href="/research/">Investigaci&oacute;n</a>
+                <a href="/consulting/">Consultor&iacute;a</a>
+                <a href="/academy/">Academy</a>
+                <a href="/contact/">Contacto</a>
+            </nav>
+
+            <button class="nav-toggle" type="button" aria-label="Abrir navegaci&oacute;n" aria-expanded="false"
+                data-nav-toggle>
+                <span></span>
+                <span></span>
+            </button>
+
+            <a class="button primary" href="/contact/">Contacto</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="shell hero-grid">
+                <div data-reveal>
+                    <span class="eyebrow">Grupo Gemis Research</span>
+                    <h1>Transferencia tecnol&oacute;gica aplicada a desaf&iacute;os reales.</h1>
+                    <p class="hero-copy">
+                        Proyectos, prototipos y desarrollos donde GEMIS articula investigaci&oacute;n, conocimiento
+                        metodol&oacute;gico e Inteligencia Artificial con organizaciones, empresas e instituciones.
+                    </p>
+
+                    <div class="actions">
+                        <a class="button primary" href="#desarrollos">Ver desarrollos</a>
+                        <a class="button secondary" href="/research/">Volver a Investigaci&oacute;n</a>
+                    </div>
+
+                    <div class="chips">
+                        <span class="chip">I+D</span>
+                        <span class="chip">IA aplicada</span>
+                        <span class="chip">Chatbots</span>
+                        <span class="chip">Simulaci&oacute;n</span>
+                        <span class="chip">Transferencia</span>
+                    </div>
+                </div>
+
+                <aside class="visual-card" data-reveal>
+                    <h2>Del resultado de investigaci&oacute;n al uso en contexto.</h2>
+                    <div class="orbit">
+                        <div class="orbit-ring"></div>
+                        <div class="orbit-ring"></div>
+                        <div class="orbit-core">I+D</div>
+                        <span class="node node-a">Empresa</span>
+                        <span class="node node-b">IA</span>
+                        <span class="node node-c">Impacto</span>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section class="section" id="desarrollos">
+            <div class="shell">
+                <div class="section-head" data-reveal>
+                    <div>
+                        <span class="section-kicker">Transferencia tecnol&oacute;gica</span>
+                        <h2 class="section-title">Desarrollos y proyectos.</h2>
+                    </div>
+                    <p class="section-copy">
+                        Casos donde los resultados de investigaci&oacute;n se transforman en metodolog&iacute;as, software,
+                        prototipos y pruebas de concepto para dominios educativos, m&eacute;dicos, ambientales y operativos.
+                    </p>
+                </div>
+
+                <div class="papers-list transfer-list" id="technology-transfer-list" data-reveal></div>
+            </div>
+        </section>
+
+        <section class="section compact">
+            <div class="shell cta" data-reveal>
+                <h2>Investigaci&oacute;n que puede convertirse en soluci&oacute;n.</h2>
+                <p>
+                    GEMIS conecta capacidades acad&eacute;micas, metodol&oacute;gicas y t&eacute;cnicas con proyectos de transferencia,
+                    innovaci&oacute;n y desarrollo aplicado.
+                </p>
+                <div class="actions">
+                    <a class="button primary" href="/contact/">Contactar</a>
+                    <a class="button secondary" href="/research/">Volver a Investigaci&oacute;n</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="modal" id="transferModal" aria-hidden="true">
+        <div class="modal-backdrop" data-close-transfer-modal></div>
+
+        <div class="modal-dialog paper-modal-dialog" role="dialog" aria-modal="true"
+            aria-labelledby="modalTransferTitle">
+            <button class="modal-close" type="button" data-close-transfer-modal aria-label="Cerrar">&times;</button>
+
+            <div class="modal-header">
+                <span class="modal-kicker">Transferencia tecnol&oacute;gica</span>
+                <h2 id="modalTransferTitle"></h2>
+                <p class="modal-description" id="modalTransferDescription"></p>
+            </div>
+
+            <div class="modal-content">
+                <section class="modal-section" id="modalTransferMetaSection">
+                    <span class="modal-label">Datos del proyecto</span>
+                    <div class="modal-lines" id="modalTransferMeta"></div>
+                </section>
+
+                <section class="modal-section">
+                    <span class="modal-label">Detalle</span>
+                    <div class="modal-lines" id="modalTransferDetails"></div>
+                </section>
+
+                <section class="modal-section" id="modalTransferPublicationsSection">
+                    <span class="modal-label">Publicaciones asociadas</span>
+                    <ul class="modal-team-list" id="modalTransferPublications"></ul>
+                </section>
+            </div>
+
+            <div class="modal-actions" id="modalTransferActions"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="shell footer-inner">
+            <p>&copy; 2026 Grupo Gemis Research.</p>
+            <p><a href="/">Grupo Gemis</a></p>
+        </div>
+    </footer>
+
+    <script src="/assets/js/main.js"></script>
+</body>
+
+</html>

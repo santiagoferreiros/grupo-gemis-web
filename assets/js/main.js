@@ -787,3 +787,150 @@ if (
     }
   });
 }
+
+// TRANSFERENCIA TECNOLOGICA: Actualizable por json
+const technologyTransferList = document.getElementById('technology-transfer-list');
+const transferModal = document.getElementById('transferModal');
+const modalTransferTitle = document.getElementById('modalTransferTitle');
+const modalTransferDescription = document.getElementById('modalTransferDescription');
+const modalTransferMeta = document.getElementById('modalTransferMeta');
+const modalTransferDetails = document.getElementById('modalTransferDetails');
+const modalTransferPublications = document.getElementById('modalTransferPublications');
+const modalTransferPublicationsSection = document.getElementById('modalTransferPublicationsSection');
+const modalTransferActions = document.getElementById('modalTransferActions');
+const closeTransferModalButtons = document.querySelectorAll('[data-close-transfer-modal]');
+
+if (
+  technologyTransferList &&
+  transferModal &&
+  modalTransferTitle &&
+  modalTransferDescription &&
+  modalTransferMeta &&
+  modalTransferDetails &&
+  modalTransferPublications &&
+  modalTransferPublicationsSection &&
+  modalTransferActions
+) {
+  const renderTransferLines = (container, lines) => {
+    container.innerHTML = '';
+
+    (lines || [])
+      .map((item) => String(item || '').trim())
+      .filter(Boolean)
+      .forEach((line) => {
+        const row = document.createElement('div');
+        row.textContent = line;
+        container.appendChild(row);
+      });
+  };
+
+  const renderTransferPublications = (publications) => {
+    modalTransferPublications.innerHTML = '';
+
+    const items = publications || [];
+    modalTransferPublicationsSection.hidden = items.length === 0;
+
+    items.forEach((publication) => {
+      const item = document.createElement('li');
+      item.textContent = publication;
+      modalTransferPublications.appendChild(item);
+    });
+  };
+
+  const openTransferModal = (item) => {
+    modalTransferTitle.textContent = item.title || '';
+    modalTransferDescription.textContent = item.description || '';
+
+    renderTransferLines(modalTransferMeta, [
+      item.organization ? `Organización: ${item.organization}` : '',
+      item.period ? `Período: ${item.period}` : ''
+    ]);
+
+    renderTransferLines(modalTransferDetails, [item.details || '']);
+    renderTransferPublications(item.publications);
+
+    modalTransferActions.innerHTML = '';
+
+    if (item.sourceUrl) {
+      const sourceButton = document.createElement('a');
+      sourceButton.href = item.sourceUrl;
+      sourceButton.className = 'button primary';
+      sourceButton.textContent = 'Ver fuente original';
+      sourceButton.target = '_blank';
+      sourceButton.rel = 'noopener';
+      modalTransferActions.appendChild(sourceButton);
+    }
+
+    transferModal.classList.add('is-open');
+    transferModal.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('modal-open');
+  };
+
+  const closeTransferModal = () => {
+    transferModal.classList.remove('is-open');
+    transferModal.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('modal-open');
+  };
+
+  const createTransferCard = (item) => {
+    const article = document.createElement('article');
+    article.className = 'paper-item transfer-item';
+    article.setAttribute('tabindex', '0');
+    article.setAttribute('role', 'button');
+    article.setAttribute('aria-label', `Ver detalle de ${item.title || 'transferencia tecnologica'}`);
+
+    const title = document.createElement('h3');
+    title.textContent = item.title || '';
+
+    const description = document.createElement('p');
+    description.textContent = item.description || '';
+
+    const meta = document.createElement('span');
+    meta.className = 'transfer-meta';
+    meta.textContent = [item.organization, item.period].filter(Boolean).join(' · ');
+
+    article.appendChild(title);
+    article.appendChild(description);
+    if (meta.textContent) {
+      article.appendChild(meta);
+    }
+
+    article.addEventListener('click', () => openTransferModal(item));
+    article.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        openTransferModal(item);
+      }
+    });
+
+    return article;
+  };
+
+  fetch('/assets/data/technology-transfer.json')
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error('No se pudo cargar technology-transfer.json');
+      }
+      return response.json();
+    })
+    .then((items) => {
+      technologyTransferList.innerHTML = '';
+
+      items.forEach((item) => {
+        technologyTransferList.appendChild(createTransferCard(item));
+      });
+    })
+    .catch((error) => {
+      console.error('Error cargando transferencia tecnologica:', error);
+    });
+
+  closeTransferModalButtons.forEach((button) => {
+    button.addEventListener('click', closeTransferModal);
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && transferModal.classList.contains('is-open')) {
+      closeTransferModal();
+    }
+  });
+}
