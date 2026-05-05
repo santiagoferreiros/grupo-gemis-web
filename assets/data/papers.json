@@ -1,0 +1,914 @@
+[
+    {
+        "category": "knowledge-management",
+        "title": "Aportes de la Inteligencia Artificial a la Gestión del Conocimiento en el ámbito empresarial",
+        "description": "XXVIII Workshop de Investigadores en Ciencias de la Computación: WICC 2026. Ansalas, M.E.; Straccia, L.; Vegega, C. (2026)",
+        "citation": "Ansalas, M.E.; Straccia, L.; Vegega, C. (2026). Aportes de la Inteligencia Artificial a la Gestión del Conocimiento en el ámbito empresarial. XXVIII Workshop de Investigadores en Ciencias de la Computación: WICC 2026. Universidad Abierta Interamericana, Buenos Aires, Argentina.",
+        "pdf": "https://grupogemis.com.ar/gemiswp/wp-content/uploads/2026/04/Poster-WICC-2026-Ansalas.pdf",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-gestion-del-conocimiento/"
+    },
+    {
+        "category": "knowledge-management",
+        "title": "Impacto de la Gestión del Conocimiento sobre la motivación de los/as trabajadores/as",
+        "description": "",
+        "citation": "Nocenti, F.; Straccia, L.; Gonzalez, N. (2026). Impacto de la Gestión del Conocimiento sobre la motivación de los/as trabajadores/as. XXVIII Workshop de Investigadores en Ciencias de la Computación: WICC 2026. Universidad Abierta Interamericana, Buenos Aires, Argentina.",
+        "pdf": "https://grupogemis.com.ar/gemiswp/wp-content/uploads/2026/04/Poster-WICC-2026-Nocenti.pdf",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-gestion-del-conocimiento/"
+    },
+    {
+        "category": "knowledge-management",
+        "title": "A Knowledge Management System based on Wikis from a Software Architecture Perspective",
+        "description": "",
+        "citation": "Straccia, L., Baruzzini, B., Alegre, B., Pollo Cattaneo, M.F. (2025). A Knowledge Management System based on Wikis from a Software Architecture Perspective. ICAIW 2025: Workshops at the 8th International Conference on Applied Informatics, ICAI 2025, Ben Guerir, Marruecos, CEUR Workshop Proceedings.",
+        "pdf": "https://ceur-ws.org/Vol-4055/icaiw_wkmit_1.pdf",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-gestion-del-conocimiento/"
+    },
+    {
+        "category": "knowledge-management",
+        "title": "Creación de un modelo integral de gestión del conocimiento para las PyMEs argentinas",
+        "description": "",
+        "citation": "Straccia, L.; Pollo-Cattaneo, Ma. F.; Baruzzini, B.; Berro, C. (2025). Creación de un modelo integral de gestión del conocimiento para las PyMEs argentinas. XXVII Workshop de Investigadores en Ciencias de la Computación: WICC 2025. Universidad Nacional de Cuyo, Mendoza, Argentina.",
+        "pdf": "https://grupogemis.com.ar/gemiswp/wp-content/uploads/2026/04/Wicc2025-paper.pdf",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-gestion-del-conocimiento/"
+    },
+    {
+        "category": "knowledge-management",
+        "title": "Knowledge Management: Innovation, Technology and Ontologies",
+        "description": "Knowledge is an essential resource to create value for organizations and requires adequate Knowledge Management to generate, retain, and apply it and obtain competitive advantages. This research analyzes the presence of Knowledge Management, the views considered, and the technology aspects that are most relevant.",
+        "citation": "Straccia, L., Pollo-Cattaneo, M.F. (2024). Knowledge Management: Innovation, Technology and Ontologies. ICAIW 2024: Workshops at the 7th International Conference on Applied Informatics, ICAI 2024, Viña del Mar, Chile, October 24–26, CEUR Workshop Proceedings.",
+        "pdf": "https://ceur-ws.org/Vol-3795/icaiw_wkmit_4.pdf",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-gestion-del-conocimiento/knowledge-management-innovation-technology-and-ontologies/"
+    },
+    {
+        "category": "knowledge-management",
+        "title": "Study of the Diagnosis of Knowledge Management in Software Development Companies",
+        "description": "Knowledge management is addressed here through a systematic mapping study focused on diagnosis and maturity in software development companies.",
+        "citation": "Ferrer, L. (2024). Study of the Diagnosis of Knowledge Management in Software Development Companies. ICAIW 2024: Workshops at the 7th International Conference on Applied Informatics, ICAI 2024, Viña del Mar, Chile, October 24–26, CEUR Workshop Proceedings.",
+        "pdf": "https://ceur-ws.org/Vol-3795/icaiw_wkmit_5.pdf",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-gestion-del-conocimiento/study-of-the-diagnosis-of-knowledge-management-in-software-development-companies/"
+    },
+    {
+        "category": "knowledge-management",
+        "title": "Analysis of the Current State of Knowledge Management Methods and Techniques Applied in Argentinian Work Cooperatives",
+        "description": "This study explores the current situation of Argentine work cooperatives concerning knowledge management and the development of collaborative knowledge societies.",
+        "citation": "Brest, F. (2024). Analysis of the Current State of Knowledge Management Methods and Techniques Applied in Argentinian Work Cooperatives. ICAIW 2024: Workshops at the 7th International Conference on Applied Informatics, ICAI 2024, Viña del Mar, Chile, October 24–26, CEUR Workshop Proceedings.",
+        "pdf": "https://ceur-ws.org/Vol-3795/icaiw_wkmit_1.pdf",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-gestion-del-conocimiento/analysis-of-the-current-state-of-knowledge-management-methods-and-techniques-applied-in-argentinian-work-cooperatives/"
+    },
+    {
+        "category": "knowledge-management",
+        "title": "Gestión del Conocimiento: actividades, tecnología y modelos de medición",
+        "description": "Este trabajo presenta enfoques de la gestión del conocimiento, proyectos de investigación del grupo, resultados obtenidos y próximas actividades y publicaciones.",
+        "citation": "Straccia, L.; Pollo-Cattaneo, Ma. F.; Maulini, A.; Berro, C. (2024). Gestión del Conocimiento: actividades, tecnología y modelos de medición. XXVI Workshop de Investigadores en Ciencias de la Computación: WICC 2024. Universidad Nacional de la Patagonia San Juan Bosco, Puerto Madryn, Chubut, Argentina.",
+        "pdf": "https://www.grupogemis.com.ar/archivos/2024/km/2024-N1-WICC-202104.pdf",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-gestion-del-conocimiento/gestion-del-conocimiento-actividades-tecnologia-y-modelos-de-medicion/"
+    },
+    {
+        "category": "knowledge-management",
+        "title": "Descriptors for Technology Key Area in a Knowledge Management Maturity Model",
+        "description": "The paper focuses on maturity models for knowledge management and proposes descriptors and a questionnaire for the technology key area.",
+        "citation": "Straccia, L., Pollo-Cattaneo, M.F. (2023). Descriptors for Technology Key Area in a Knowledge Management Maturity Model. ICAIW 2023: Workshops at the 6th International Conference on Applied Informatics, ICAI 2023, Guayaquil, Ecuador, October 25–27, CEUR Workshop Proceedings.",
+        "pdf": "https://ceur-ws.org/Vol-3520/icaiw_wkmit_2.pdf",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-gestion-del-conocimiento/descriptors-for-technology-key-area-in-a-knowledge-management-maturity-model/"
+    },
+    {
+        "category": "knowledge-management",
+        "title": "Knowledge Management Model: A Process View",
+        "description": "This paper analyzes the activities and stages of knowledge management and proposes a model that includes learning, retrieval, structuring, socialization, dissemination, identification, creation, and acquisition.",
+        "citation": "Straccia, L., Pollo-Cattaneo, M.F., Maulini, A. (2023). Knowledge Management Model: A Process View. In: Computational Science and Its Applications – ICCSA 2023. ICCSA 2023. Lecture Notes in Computer Science, vol 13956. Springer, Cham. https://doi.org/10.1007/978-3-031-36805-9_39",
+        "pdf": "https://link.springer.com/chapter/10.1007/978-3-031-36805-9_39",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-gestion-del-conocimiento/knowledge-management-model-a-process-view/"
+    },
+    {
+        "category": "knowledge-management",
+        "title": "Creación de un observatorio tecnológico de la gestión del conocimiento en la ciudad de Buenos Aires",
+        "description": "El trabajo presenta el objetivo de construir un observatorio tecnológico para describir, analizar y mostrar la situación actual de la gestión del conocimiento en la Ciudad de Buenos Aires.",
+        "citation": "Creación de un observatorio tecnológico de la gestión del conocimiento en la ciudad de Buenos Aires. WICC 2023: XXV Workshop de Investigadores en Ciencias de la Computación, Junín, Buenos Aires.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-gestion-del-conocimiento/creacion-de-un-observatorio-tecnologico-de-la-gestion-del-conocimiento-en-la-ciudad-de-buenos-aires/"
+    },
+    {
+        "category": "knowledge-management",
+        "title": "Architecture on Knowledge Management Systems: its presence in the academic literature",
+        "description": "",
+        "citation": "Architecture on Knowledge Management Systems: its presence in the academic literature. ICAI 2022: Proceedings 5th International Conference, ICAI 2022, Arequipa, Peru.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-gestion-del-conocimiento/architecture-on-knowledge-management-systems-its-presence-in-the-academic-literature/"
+    },
+    {
+        "category": "knowledge-management",
+        "title": "Knowledge Representation and Technologies in the Latin American Academic Literature",
+        "description": "",
+        "citation": "Knowledge Representation and Technologies in the Latin American Academic Literature. ICAIW 2022: Workshops at the 5th International Conference on Applied Informatics, Arequipa, Perú.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-gestion-del-conocimiento/knowledge-representation-and-technologies-in-the-latin-american-academic-literature/"
+    },
+    {
+        "category": "knowledge-management",
+        "title": "The SECI knowledge creation model: A look through sociology",
+        "description": "",
+        "citation": "The SECI knowledge creation model: A look through sociology. ICAIW 2022: Workshops at the 5th International Conference on Applied Informatics, ICAI 2022, Arequipa, Perú.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-gestion-del-conocimiento/the-seci-knowledge-creation-model-a-look-through-sociology/"
+    },
+    {
+        "category": "knowledge-management",
+        "title": "Visões da Gestão do Conhecimento para a construção de um modelo integral",
+        "description": "",
+        "citation": "Visões da Gestão do Conhecimento para a construção de um modelo integral. Congresso Brasileiro de Gestão do Conhecimento. KM BRASIL 2022, São Paulo.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-gestion-del-conocimiento/visoes-da-gestao-do-conhecimento-para-a-construcao-de-um-modelo-integral/"
+    },
+    {
+        "category": "knowledge-management",
+        "title": "Success and failures in software development project management: a systematic literature review",
+        "description": "",
+        "citation": "Success and failures in software development project management: a systematic literature review. ICAIW 2021: Workshops at the Fourth International Conference on Applied Informatics 2021, Buenos Aires, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-gestion-del-conocimiento/success-and-failures-in-software-development-project-management-a-systematic-literature-review/"
+    },
+    {
+        "category": "knowledge-management",
+        "title": "Knowledge management technologies for a n-layered architecture",
+        "description": "",
+        "citation": "Knowledge management technologies for a n-layered architecture. ICAIW 2021: Workshops at the Fourth International Conference on Applied Informatics, Buenos Aires, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-gestion-del-conocimiento/knowledge-management-technologies-for-a-n-layered-architecture-2/"
+    },
+    {
+        "category": "knowledge-management",
+        "title": "Fases propuestas para el diseño y construcción de un modelo de Gestión del Conocimiento",
+        "description": "",
+        "citation": "Fases propuestas para el diseño y construcción de un modelo de Gestión del Conocimiento. InNGENIO 2021, Antioquía, Colombia.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-gestion-del-conocimiento/fases-propuestas-para-el-diseno-y-construccion-de-un-modelo-de-gestion-del-conocimiento/"
+    },
+    {
+        "category": "knowledge-management",
+        "title": "Marco de Trabajo para la Gestión del Conocimiento en la Administración de Proyectos de Desarrollo del Software",
+        "description": "",
+        "citation": "Marco de Trabajo para la Gestión del Conocimiento en la Administración de Proyectos de Desarrollo del Software. WICC 2021: Workshop de Investigadores en Ciencias de la Computación, Chilecito, La Rioja, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-gestion-del-conocimiento/"
+    },
+    {
+        "category": "knowledge-management",
+        "title": "Una visión de la tecnología para la Gestión del Conocimiento. Resultados en la literatura latinoamericana",
+        "description": "",
+        "citation": "Una visión de la tecnología para la Gestión del Conocimiento. Resultados en la literatura latinoamericana. InNGENIO 2020, Antioquía, Colombia.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-gestion-del-conocimiento/"
+    },
+    {
+        "category": "knowledge-management",
+        "title": "Arquitectura tecnológica para la implementación de Gestión del Conocimiento en pequeñas y medianas fábricas de software",
+        "description": "",
+        "citation": "Arquitectura tecnológica para la implementación de Gestión del Conocimiento en pequeñas y medianas fábricas de software. WICC 2020: XXII Workshop de Investigadores de Ciencias de la Computación, Patagonia, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-gestion-del-conocimiento/"
+    },
+    {
+        "category": "knowledge-management",
+        "title": "Ontología para Transferir Conocimiento en la Gestión de Calidad",
+        "description": "",
+        "citation": "Ontología para Transferir Conocimiento en la Gestión de Calidad. Revista Electrónica Gestión de las Personas y Tecnología. Versión On-line ISSN: 0718-5693 Nº 39.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-gestion-del-conocimiento/"
+    },
+    {
+        "category": "knowledge-management",
+        "title": "Un modelo de gestión de conocimiento aplicable a las pequeñas y medianas fábricas de software",
+        "description": "",
+        "citation": "Un modelo de gestión de conocimiento aplicable a las pequeñas y medianas fábricas de software. InNGENIO 2019, Antioquía, Colombia.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-gestion-del-conocimiento/"
+    },
+    {
+        "category": "knowledge-management",
+        "title": "Una aproximación a un modelo de gestión de conocimiento aplicable a las pequeñas y medianas fábricas de software",
+        "description": "",
+        "citation": "Una aproximación a un modelo de gestión de conocimiento aplicable a las pequeñas y medianas fábricas de software. InNGENIO 2018, Antioquía, Colombia.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-gestion-del-conocimiento/"
+    },
+    {
+        "category": "knowledge-management",
+        "title": "La Gestión del Conocimiento en Pequeñas y Medianas Fábricas de Software en el Área Metropolitana de Buenos Aires",
+        "description": "",
+        "citation": "La Gestión del Conocimiento en Pequeñas y Medianas Fábricas de Software en el Área Metropolitana de Buenos Aires. WICC 2017: XIX Workshop de Investigadores de Ciencias de la Computación, Ciudad de Buenos Aires, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-gestion-del-conocimiento/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "DialySmart: Sistema de apoyo a la toma de decisiones clínicas basado en Inteligencia Artificial",
+        "description": "Sistema de apoyo a la toma de decisiones clínicas basado en inteligencia artificial híbrida para recomendaciones clínicas en hemodiálisis pediátrica.",
+        "citation": "Gluk, D.; Goldfarb, M.; Goldfarb, N.; Lamas, C.; Trupkin, I; Di Pinto, D.; López, L.; Vegega, C.; Pollo-Cattaneo, M. F.; Olivas, J. A. (2026). DialySmart: Sistema de apoyo a la toma de decisiones clínicas basado en Inteligencia Artificial. XXVIII Workshop de Investigadores en Ciencias de la Computación: WICC 2026. Universidad Abierta Interamericana, Buenos Aires, Argentina.",
+        "pdf": "https://grupogemis.com.ar/gemiswp/wp-content/uploads/2026/04/WICC-2026-DialySmart.pdf",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Arquitecturas Hibridas explicables para sistemas de apoyo a la decisión clínica: evolución desde el modelo predictivo",
+        "description": "Línea de investigación sobre arquitecturas híbridas explicables para sistemas de apoyo a la decisión clínica, integrando modelos predictivos, reglas clínicas e inteligencia artificial.",
+        "citation": "Di Felice, M.; Lamas, C.; Ramon, H.; Deroche, A.; Paoli, J.F.; Leguizamon, R.; Trupkin, I.; Ferreiros Cabrera, S.; Pytel, P.; Vegega, C.; Pollo-Cattaneo, M.F. (2026). Arquitecturas Hibridas explicables para sistemas de apoyo a la decisión clínica: evolución desde el modelo predictivo. XXVIII Workshop de Investigadores en Ciencias de la Computación: WICC 2026. Universidad Abierta Interamericana, Buenos Aires, Argentina.",
+        "pdf": "https://grupogemis.com.ar/gemiswp/wp-content/uploads/2026/04/WICC-2026-ArquitecturasHibridas.pdf",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "A Semi-automatic Method for Topic Discovery and Trend Analysis Across Text Corpora",
+        "description": "Trabajo sobre un método semiautomático para descubrir tópicos y analizar tendencias en corpus textuales.",
+        "citation": "Muraca, F.; Pollo-Cattaneo, M. F.; Astudillo, H. (2025). A Semi-automatic Method for Topic Discovery and Trend Analysis Across Text Corpora. En 8th International Conference Applied Informatics (ICAI 2025), Communications in Computer and Information Science, pp. 163-176. Springer International Publishing.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Cognitive Architecture for Learning in Autonomous Agents: A Study in Discrete Navigation",
+        "description": "Trabajo sobre arquitectura cognitiva para aprendizaje en agentes autónomos en escenarios de navegación discreta.",
+        "citation": "Hernandez, J.; Pollo-Cattaneo, M. F.; Peluffo-Ordóñez, D. H.; Florez, H. (2025). Cognitive Architecture for Learning in Autonomous Agents: A Study in Discrete Navigation. En 8th International Conference Applied Informatics (ICAI 2025), Communications in Computer and Information Science, pp. 3-19. Springer International Publishing.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "The Recursive Loop of AI-Generated Content: Implications for Quality, Originality, and Society",
+        "description": "Trabajo sobre las implicancias de los contenidos generados por IA en calidad, originalidad y sociedad.",
+        "citation": "Ferreiros Cabrera, S.; Pollo Cattaneo, M. F.; Florez, H. (2025). The Recursive Loop of AI-Generated Content: Implications for Quality, Originality, and Society. Revista Científica, Universidad Distrital Francisco José de Caldas.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Researchers want to Explain but Practitioners just want to Observe",
+        "description": "Trabajo sobre diferencias entre enfoques explicativos y observacionales en prácticas vinculadas a inteligencia artificial.",
+        "citation": "Muraca, F.; Pollo-Cattaneo, M. F.; Astudillo, H. (2025). Researchers want to Explain but Practitioners just want to Observe. Proceedings Latin American Computer Conference (CLEI) 2025. Valparaíso: Institute of Electrical and Electronics Engineers.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "A Systematic Review on Artificial Intelligence-Based Clinical Decision Support Systems in Depression",
+        "description": "Revisión sistemática sobre sistemas de soporte a la decisión clínica basados en inteligencia artificial aplicados a depresión.",
+        "citation": "Chiang, M. A.; Coll, L.; Pollo-Cattaneo, M. F.; Chatterjee, P. (2025). A Systematic Review on Artificial Intelligence-Based Clinical Decision Support Systems in Depression. Annual International Conference of the IEEE Engineering in Medicine and Biology Society.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Interacción por voz afectiva y segura: un enfoque híbrido de PLN, lógica difusa y blockchain",
+        "description": "Línea de investigación sobre interacción por voz afectiva y segura con procesamiento de lenguaje natural, lógica difusa y blockchain.",
+        "citation": "Fransoy, M.; Hossian, A.; Merlino, H.; Pollo-Cattaneo, M. F. (2025). Interacción por voz afectiva y segura: un enfoque híbrido de PLN, lógica difusa y blockchain. Proceedings XXVII Workshop de Investigadores de Ciencias de la Computación, WICC 2025. Mendoza: Universidad Nacional de Cuyo, pp. 346-350.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Aplicación de IA en salud mental: resultados y nuevas líneas de trabajo del grupo GEMIS",
+        "description": "Trabajo sobre resultados y nuevas líneas de investigación del grupo GEMIS en aplicaciones de IA para salud mental.",
+        "citation": "Di Felice, M.; Lamas, C.; Maleh, F.; Norscini, J.; Ramón, H.; Deroche, A.; Lebedinsky, M.; Leguizamón, R.; Montenegro Aguilar, G.; Trupkin, I.; Pytel, P.; Vegega, C.; Chatterjee, P.; Pollo-Cattaneo, M. F. (2025). Aplicación de IA en salud mental: resultados y nuevas líneas de trabajo del grupo GEMIS. Proceedings XXVII Workshop de Investigadores de Ciencias de la Computación, WICC 2025. Mendoza: Universidad Nacional de Cuyo, pp. 7-11.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Automated Diagnosis of Prostate Cancer Using Artificial Intelligence. A Systematic Literature Review",
+        "description": "Revisión sistemática sobre diagnóstico automatizado de cáncer de próstata usando inteligencia artificial.",
+        "citation": "Automated Diagnosis of Prostate Cancer Using Artificial Intelligence. A Systematic Literature Review. ICAI 2023: International Conference on Applied Informatics, Guayaquil, Ecuador.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Predictive Modeling for Detection of Depression Using Machine Learning",
+        "description": "Trabajo sobre modelado predictivo para detección de depresión mediante machine learning.",
+        "citation": "Predictive Modeling for Detection of Depression Using Machine Learning. ICAI 2023: International Conference on Applied Informatics, Guayaquil, Ecuador.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Depression and Anxiety Diagnosis Using Unsupervised Learning Approach",
+        "description": "Trabajo sobre diagnóstico de depresión y ansiedad usando aprendizaje no supervisado.",
+        "citation": "Depression and Anxiety Diagnosis Using Unsupervised Learning Approach. WAAI 2023, Guayaquil, Ecuador.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Reconocimiento de Logotipos de Empresas Tecnológicas mediante Redes Neuronales Artificiales",
+        "description": "Trabajo sobre reconocimiento de logotipos de empresas tecnológicas mediante redes neuronales artificiales.",
+        "citation": "Reconocimiento de Logotipos de Empresas Tecnológicas mediante Redes Neuronales Artificiales. CACIC 2023: Congreso Argentino de Ciencias de la Computación, Luján, Buenos Aires, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Herramienta Práctica de Aplicación de Emparrillado en la Asignatura Inteligencia Artificial",
+        "description": "Trabajo sobre una herramienta práctica de aplicación de emparrillado en la asignatura Inteligencia Artificial.",
+        "citation": "Herramienta Práctica de Aplicación de Emparrillado en la Asignatura Inteligencia Artificial. CACIC 2023: Congreso Argentino de Ciencias de la Computación, Luján, Buenos Aires, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Aplicación de Técnicas de Inteligencia Artificial en la Prevención de Problemas de Salud Mental",
+        "description": "Trabajo sobre aplicación de técnicas de inteligencia artificial para prevenir problemas de salud mental.",
+        "citation": "Aplicación de Técnicas de Inteligencia Artificial en la Prevención de Problemas de Salud Mental. WICC 2023: Workshop de Investigadores en Ciencias de la Computación, Junín, Buenos Aires, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Predictive Modeling Toward the Design of a Forensic Decision Support System Using Cheiloscopy for Identification from Lip Prints",
+        "description": "Trabajo sobre modelado predictivo para diseñar un sistema forense de soporte a la decisión usando queiloscopía.",
+        "citation": "Predictive Modeling Toward the Design of a Forensic Decision Support System Using Cheiloscopy for Identification from Lip Prints. ICAI 2022: International Conference on Applied Informatics, Arequipa, Perú.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Depression Diagnosis using Text-based AI Methods - A Systematic Review",
+        "description": "Revisión sistemática sobre diagnóstico de depresión usando métodos de inteligencia artificial basados en texto.",
+        "citation": "Depression Diagnosis using Text-based AI Methods - A Systematic Review. WAAI 2022: Workshops at the 5th International Conference on Applied Informatics, Arequipa, Perú.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "A Preliminary Approach about using nowadays Knowledge Engineering in Artificial Intelligence: a literature overview",
+        "description": "Revisión de literatura sobre el uso actual de ingeniería del conocimiento en inteligencia artificial.",
+        "citation": "A Preliminary Approach about using nowadays Knowledge Engineering in Artificial Intelligence: a literature overview. Short Papers of the 10th Conference on Cloud Computing, Emerging Topics, La Plata, Argentina, 2022.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Marco de Trabajo de Rasgos Biométricos en Queiloscopía Mediante el Uso de Machine Learning",
+        "description": "Trabajo sobre un marco de trabajo de rasgos biométricos en queiloscopía usando machine learning.",
+        "citation": "Marco de Trabajo de Rasgos Biométricos en Queiloscopía Mediante el Uso de Machine Learning. WICC 2022: Workshop de Investigadores en Ciencias de la Computación, Mendoza, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Método de mejora continua de Interfaces gráficas de usuario en aplicación web a través de sistemas inteligentes",
+        "description": "Trabajo sobre mejora continua de interfaces gráficas de usuario en aplicaciones web mediante sistemas inteligentes.",
+        "citation": "Método de mejora continua de Interfaces gráficas de usuario en aplicación web a través de sistemas inteligentes. InNGENIO 2021: Conferencia Internacional de Ingeniería, Medellín, Colombia.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Object Detection based software system for automatic evaluation of Cursogramas images",
+        "description": "Sistema de software basado en detección de objetos para evaluación automática de imágenes de cursogramas.",
+        "citation": "Object Detection based software system for automatic evaluation of Cursogramas images. ICAI 2021: International Conference on Applied Informatics, Buenos Aires, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Application of a continuous improvement method for Graphic User Interfaces through Intelligent Systems for a language services company",
+        "description": "Trabajo sobre aplicación de un método de mejora continua de interfaces gráficas mediante sistemas inteligentes en una empresa de servicios lingüísticos.",
+        "citation": "Application of a continuous improvement method for Graphic User Interfaces through Intelligent Systems for a language services company. ICAI 2021: International Conference on Applied Informatics, Buenos Aires, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Predictive modeling toward identification of sex from lip prints - machine learning in cheiloscopy",
+        "description": "Trabajo sobre modelado predictivo para identificación de sexo a partir de huellas labiales usando machine learning en queiloscopía.",
+        "citation": "Predictive modeling toward identification of sex from lip prints - machine learning in cheiloscopy. WAAI 2021: Workshops at the Fourth International Conference on Applied Informatics, Buenos Aires, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Metodología de implementación de un chatbot como tutor virtual en el ámbito educativo para universidades en Latinoamérica",
+        "description": "Trabajo sobre una metodología para implementar un chatbot como tutor virtual en el ámbito educativo universitario latinoamericano.",
+        "citation": "Metodología de implementación de un chatbot como tutor virtual en el ámbito educativo para universidades en Latinoamérica. InNGENIO 2020: Conferencia Internacional de Ingeniería, Medellín, Colombia.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Evaluation of the Bias in the Management of Patient’s Appointments in a Pediatric Office",
+        "description": "Trabajo sobre evaluación del sesgo en la gestión de turnos de pacientes en un consultorio pediátrico.",
+        "citation": "Evaluation of the Bias in the Management of Patient’s Appointments in a Pediatric Office. ParadigmPlus. Volumen 1, 2020.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "New Application of the Requirements Elicitation Process for the Construction of Intelligent System-Based Predictive Models",
+        "description": "Trabajo sobre la aplicación del proceso de elicitación de requerimientos para construir modelos predictivos basados en sistemas inteligentes.",
+        "citation": "New Application of the Requirements Elicitation Process for the Construction of Intelligent System-Based Predictive Models. Communications in Computer and Information Science Book Series, 2020.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Modelos e implementación de Machine Learning en Queiloscopía",
+        "description": "Trabajo sobre modelos e implementación de técnicas de machine learning aplicadas a queiloscopía.",
+        "citation": "Modelos e implementación de Machine Learning en Queiloscopía. ATICA 2020: Congreso Internacional sobre Aplicación de Tecnologías de la Información y Comunicaciones Avanzadas.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Instancias de un Modelo Ontológico para la Gestión de Conocimiento en la Etapa de Pruebas de Software",
+        "description": "Trabajo sobre instancias de un modelo ontológico para gestionar conocimiento durante la etapa de pruebas de software.",
+        "citation": "Instancias de un Modelo Ontológico para la Gestión de Conocimiento en la Etapa de Pruebas de Software. ATICA 2020: Congreso Internacional sobre Aplicación de Tecnologías de la Información y Comunicaciones Avanzadas.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Desarrollo de un recurso léxico de palabras informales en español de Argentina para el análisis de sentimientos en Twitter",
+        "description": "Trabajo sobre desarrollo de recursos léxicos de español argentino informal para análisis de sentimientos en Twitter.",
+        "citation": "Desarrollo de un recurso léxico de palabras informales en español de Argentina para el análisis de sentimientos en Twitter. ATICA 2020: Congreso Internacional sobre Aplicación de Tecnologías de la Información y Comunicaciones Avanzadas.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Análisis de sentimientos: detección de sarcasmo en español a través de emoticones en Twitter",
+        "description": "Trabajo sobre análisis de sentimientos y detección de sarcasmo en español mediante emoticones en Twitter.",
+        "citation": "Análisis de sentimientos: detección de sarcasmo en español a través de emoticones en Twitter. ATICA 2020: Congreso Internacional sobre Aplicación de Tecnologías de la Información y Comunicaciones Avanzadas.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Análisis de sentimientos en Twitter: desarrollo de Recursos en el español rioplatense de Argentina",
+        "description": "Trabajo sobre análisis de sentimientos en Twitter y desarrollo de recursos lingüísticos para español rioplatense argentino.",
+        "citation": "Análisis de sentimientos en Twitter: desarrollo de Recursos en el español rioplatense de Argentina. WICC 2020: Workshop de Investigadores en Ciencias de la Computación, Patagonia, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Metodología de implementación de un Chatbot como tutor virtual en el ámbito educativo",
+        "description": "Trabajo sobre implementación de un chatbot como tutor virtual en contextos educativos.",
+        "citation": "Metodología de implementación de un Chatbot como tutor virtual en el ámbito educativo. WICC 2020: Workshop de Investigadores en Ciencias de la Computación, Patagonia, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Revisión de enfoques y comparación de recursos para el análisis de sentimientos en español en Twitter",
+        "description": "Trabajo sobre enfoques y recursos para realizar análisis de sentimientos en español aplicado a Twitter.",
+        "citation": "Revisión de enfoques y comparación de recursos para el análisis de sentimientos en español en Twitter. InNGENIO 2019: Conferencia Internacional de Ingeniería, Medellín, Colombia.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Application of the Requirements Elicitation Process for the Construction of Intelligent System-Based Predictive Models in the Education Area",
+        "description": "Trabajo sobre aplicación del proceso de elicitación de requerimientos para construir modelos predictivos inteligentes en el área educativa.",
+        "citation": "Application of the Requirements Elicitation Process for the Construction of Intelligent System-Based Predictive Models in the Education Area. Applied Informatics, Communications in Computer and Information Science book series, 2019.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Análisis de algoritmos aplicados al Churn Analysis",
+        "description": "Trabajo sobre análisis de algoritmos aplicados al estudio de churn analysis.",
+        "citation": "Análisis de algoritmos aplicados al Churn Analysis. Revista Brazilian Journal of Development, Volumen 5, 2019.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Comparing different approaches to compute permutation entropy with coarse time series",
+        "description": "Trabajo sobre comparación de enfoques para calcular entropía de permutación en series temporales.",
+        "citation": "Comparing different approaches to compute permutation entropy with coarse time series. PhysicaA: Statistical Mechanics and its Applications. Volumen 513, 2019.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Diseño de Framework para la Implementación de Algoritmos Genéticos en Dispositivos Móviles",
+        "description": "Trabajo sobre diseño de un framework para implementar algoritmos genéticos en dispositivos móviles.",
+        "citation": "Diseño de Framework para la Implementación de Algoritmos Genéticos en Dispositivos Móviles. CONAIISI 2019: Congreso Nacional de Ingeniería Informática y Sistemas de Información, San Justo, Buenos Aires, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Prácticas Ingenieriles Aplicadas para la Implementación de Sistemas Inteligentes Basados en Machine Learning",
+        "description": "Trabajo sobre prácticas de ingeniería aplicadas a la implementación de sistemas inteligentes basados en machine learning.",
+        "citation": "Prácticas Ingenieriles Aplicadas para la Implementación de Sistemas Inteligentes Basados en Machine Learning. WICC 2019: Workshop de Investigadores de Ciencias de la Computación, San Juan, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Elicitación de Requerimientos para la Construcción de Modelos Predictivos basados en Sistemas Inteligentes dentro del Ámbito Educativo",
+        "description": "Trabajo sobre elicitación de requerimientos para construir modelos predictivos basados en sistemas inteligentes en educación.",
+        "citation": "Elicitación de Requerimientos para la Construcción de Modelos Predictivos basados en Sistemas Inteligentes dentro del Ámbito Educativo. CACIC 2019: Congreso Argentino de Ciencias de la Computación, Río Cuarto, Córdoba, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Diagnóstico del Proceso de Aprendizaje de Alumnos de Inteligencia Artificial mediante un Modelo Dinámico Bayesiano",
+        "description": "Trabajo sobre diagnóstico del proceso de aprendizaje de alumnos de inteligencia artificial mediante un modelo dinámico bayesiano.",
+        "citation": "Diagnóstico del Proceso de Aprendizaje de Alumnos de Inteligencia Artificial mediante un Modelo Dinámico Bayesiano. Revista Tecnología Y Ciencia. 2018.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Evaluation of Student Performance Data through Repertory Grid based Method",
+        "description": "Trabajo sobre evaluación de datos de desempeño estudiantil mediante un método basado en emparrillado.",
+        "citation": "Evaluation of Student Performance Data through Repertory Grid based Method. 13CCC: Congreso Colombiano de Computación, Cartagena, Colombia. 2018.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Aplicación de Algoritmos de Aprendizaje Automático al Análisis del Churn en Planes de Ahorro",
+        "description": "Trabajo sobre aplicación de algoritmos de aprendizaje automático al análisis de churn en planes de ahorro.",
+        "citation": "Aplicación de Algoritmos de Aprendizaje Automático al Análisis del Churn en Planes de Ahorro. CONAIISI 2018: Congreso Nacional de Ingeniería Informática y Sistemas de Información.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Proceso de Selección de Arquitectura a fin de Implementar un Modelo Predictivo Inteligente",
+        "description": "Trabajo sobre selección de arquitectura para implementar un modelo predictivo inteligente.",
+        "citation": "Proceso de Selección de Arquitectura a fin de Implementar un Modelo Predictivo Inteligente. CONAIISI 2018: Congreso Nacional de Ingeniería Informática y Sistemas de Información.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Generación de Preguntas para Exámenes mediante la aplicación de Redes Neuronales de Aprendizaje Profundo",
+        "description": "Trabajo sobre generación de preguntas para exámenes mediante redes neuronales de aprendizaje profundo.",
+        "citation": "Generación de Preguntas para Exámenes mediante la aplicación de Redes Neuronales de Aprendizaje Profundo. CONAIISI 2018: Congreso Nacional de Ingeniería Informática y Sistemas de Información.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "El desarrollo de las tecnologías inteligentes en el contexto de la robotización en América Latina. Una intersección vital entre ambos campos",
+        "description": "Trabajo sobre tecnologías inteligentes y robotización en América Latina desde una perspectiva histórica y sociotécnica.",
+        "citation": "El desarrollo de las tecnologías inteligentes en el contexto de la robotización en América Latina. Una intersección vital entre ambos campos. SHIALC 2018: Simposio de Historia de la Informática de América Latina y el Caribe, Río de Janeiro, Brasil.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Método basado en el emparrillado para evaluar los datos aplicables para entrenar algoritmos de aprendizaje automático",
+        "description": "Trabajo sobre un método basado en emparrillado para evaluar datos utilizados en el entrenamiento de algoritmos de aprendizaje automático.",
+        "citation": "Método basado en el emparrillado para evaluar los datos aplicables para entrenar algoritmos de aprendizaje automático. InNGENIO 2017, Antioquía, Colombia.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Process Model Proposal for Requirements Engineering in Information Mining Projects",
+        "description": "Trabajo sobre una propuesta de modelo de proceso para ingeniería de requerimientos en proyectos de minería de información.",
+        "citation": "Process Model Proposal for Requirements Engineering in Information Mining Projects. CCC 17: Colombian Conference.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Repertory grid based method to assess the data to train Machine Learning Algorithms",
+        "description": "Trabajo sobre un método basado en grilla de repertorio para evaluar datos destinados al entrenamiento de algoritmos de machine learning.",
+        "citation": "Repertory grid based method to assess the data to train Machine Learning Algorithms. Revista oficial de la Conferencia Editorial Instituto Antioqueño de Investigación, Medellín, Colombia.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Evaluación del Sesgo de Datos de una Asignatura de Grado para entrenar Algoritmos de Aprendizaje Automático",
+        "description": "Trabajo sobre evaluación del sesgo de datos de una asignatura de grado para entrenar algoritmos de aprendizaje automático.",
+        "citation": "Evaluación del Sesgo de Datos de una Asignatura de Grado para entrenar Algoritmos de Aprendizaje Automático. CIACA 2017: Conferencia Iberoamericana de WWW/Internet y Computación Aplicada, Vilamoura, Algarve, Portugal.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Proceso de Elicitación de Requerimientos para la Construcción de Modelos Predictivos Basados en Sistemas Inteligentes",
+        "description": "Trabajo sobre proceso de elicitación de requerimientos para construir modelos predictivos basados en sistemas inteligentes.",
+        "citation": "Proceso de Elicitación de Requerimientos para la Construcción de Modelos Predictivos Basados en Sistemas Inteligentes. WICC 2017: Workshop de Investigadores de Ciencias de la Computación, Buenos Aires, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "artificial-intelligence",
+        "title": "Sistemas Inteligentes para clasificación automática de clientes: Caso de estudio",
+        "description": "Trabajo sobre sistemas inteligentes aplicados a la clasificación automática de clientes mediante un caso de estudio.",
+        "citation": "Sistemas Inteligentes para clasificación automática de clientes: Caso de estudio. En Desarrollo e Innovación en Ingeniería, Antioquía, Colombia, 2016.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-inteligencia-artificial-y-sistemas-inteligentes/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Propuesta de Taxonomía aplicada a Asignatura de Grado",
+        "description": "Trabajo sobre la aplicación de una propuesta de taxonomía en una asignatura de grado.",
+        "citation": "Propuesta de Taxonomía aplicada a Asignatura de Grado. ATICA 2023: Congreso Internacional sobre Aplicación de Tecnologías de la Información y Comunicaciones Avanzadas, Aguascalientes, México.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Propuesta para un estudio de campo sobre la brecha entre universidad y empresa desde la perspectiva docente",
+        "description": "Trabajo sobre la brecha entre universidad y empresa analizada desde la perspectiva docente.",
+        "citation": "Propuesta para un estudio de campo sobre la brecha entre universidad y empresa desde la perspectiva docente. ATICA 2023: Congreso Internacional sobre Aplicación de Tecnologías de la Información y Comunicaciones Avanzadas, Aguascalientes, México.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Aplicación de ciencia de datos para la predicción de deserción en asignatura universitaria ‘Sistemas y Organizaciones’",
+        "description": "Trabajo sobre el uso de ciencia de datos para predecir deserción en una asignatura universitaria.",
+        "citation": "Aplicación de ciencia de datos para la predicción de deserción en asignatura universitaria ‘Sistemas y Organizaciones’. Congreso Internacional sobre Aplicación de Tecnologías de la Información y Comunicaciones Avanzadas 2022, Alcalá, España.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Realidad Virtual por alumnos y para alumnos de UTN FRBA",
+        "description": "Trabajo sobre experiencias de realidad virtual desarrolladas por estudiantes y destinadas a estudiantes de UTN FRBA.",
+        "citation": "Realidad Virtual por alumnos y para alumnos de UTN FRBA. CACIC 2022: Congreso Argentino de Ciencias de la Computación, La Rioja, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Experiencia Aúlica del Trabajo Práctico Anual en la Asignatura Sistemas y Organizaciones de la Carrera de Ingeniería en Sistemas de Información",
+        "description": "Trabajo sobre una experiencia áulica vinculada al trabajo práctico anual de la asignatura Sistemas y Organizaciones.",
+        "citation": "Experiencia Aúlica del Trabajo Práctico Anual en la Asignatura Sistemas y Organizaciones de la Carrera de Ingeniería en Sistemas de Información. CONAIISI 2022: Congreso Nacional de Ingeniería Informática / Sistemas de Información, Concepción del Uruguay, Entre Ríos, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Metodología de implementación de un chatbot como tutor virtual en el ámbito educativo para universidades en Latinoamérica",
+        "description": "Trabajo sobre una metodología para implementar chatbots como tutores virtuales en universidades latinoamericanas.",
+        "citation": "Metodología de implementación de un chatbot como tutor virtual en el ámbito educativo para universidades en Latinoamérica. En Investigación Formativa en Ingeniería – Cuarta Edición, Antioquía, Colombia, 2020.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Utilización de Instagram, Youtube y Moodle como Herramientas Didácticas de Integración para el Proceso de Enseñanza-Aprendizaje",
+        "description": "Trabajo sobre el uso de Instagram, YouTube y Moodle como herramientas didácticas de integración.",
+        "citation": "Utilización de Instagram, Youtube y Moodle como Herramientas Didácticas de Integración para el Proceso de Enseñanza-Aprendizaje. 2020 CONAIISI: VIII Congreso Nacional de Ingeniería Informática/Sistemas de Información, San Francisco, Córdoba, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Software basado en Detección de Objetos para evaluar automáticamente imágenes de Cursogramas",
+        "description": "Trabajo sobre un software basado en detección de objetos para evaluar automáticamente imágenes de cursogramas.",
+        "citation": "Software basado en Detección de Objetos para evaluar automáticamente imágenes de Cursogramas. ATICA 2020: Congreso Internacional sobre Aplicación de Tecnologías de la Información y Comunicaciones Avanzadas.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Redes Sociales en el Aula: Un Caso de Estudio",
+        "description": "Trabajo sobre el uso de redes sociales en el aula a partir de un caso de estudio.",
+        "citation": "Redes Sociales en el Aula: Un Caso de Estudio. ATICA 2020: Congreso Internacional sobre Aplicación de Tecnologías de la Información y Comunicaciones Avanzadas.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Definición de un estándar para la evaluación de calidad de software educativo",
+        "description": "Trabajo sobre la definición de un estándar para evaluar la calidad de software educativo.",
+        "citation": "Definición de un estándar para la evaluación de calidad de software educativo. CACIC 2019, Río Cuarto, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Integración de Instagram, Kahoot y Youtube como herramientas didácticas para el proceso de enseñanza-aprendizaje",
+        "description": "Trabajo sobre la integración de Instagram, Kahoot y YouTube como herramientas didácticas.",
+        "citation": "Integración de Instagram, Kahoot y Youtube como herramientas didácticas para el proceso de enseñanza-aprendizaje. CONAIISI 2019, San Justo, Provincia de Buenos Aires, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Evaluation of the Bias of Student Performance Data with Assistance of Expert Teacher",
+        "description": "Trabajo sobre la evaluación del sesgo en datos de desempeño estudiantil con asistencia de docentes expertos.",
+        "citation": "Evaluation of the Bias of Student Performance Data with Assistance of Expert Teacher. ICAI 2018. Bogotá, Colombia.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Normalización de la evaluación de calidad de producto software para el ámbito educativo",
+        "description": "Trabajo sobre normalización de la evaluación de calidad de productos de software en el ámbito educativo.",
+        "citation": "Normalización de la evaluación de calidad de producto software para el ámbito educativo. CACIC 2018, Tandil, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Evaluation of Student Performance Data through Repertory Grid based Method",
+        "description": "Trabajo sobre evaluación de datos de desempeño estudiantil mediante un método basado en emparrillado.",
+        "citation": "Evaluation of Student Performance Data through Repertory Grid based Method. 13CCC 2018. Cartagena, Colombia.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Portafolio de proyectos de la cátedra de Sistemas y Organizaciones en Ingeniería en Sistemas de Información",
+        "description": "Trabajo sobre el portafolio de proyectos de la cátedra Sistemas y Organizaciones en Ingeniería en Sistemas de Información.",
+        "citation": "Portafolio de proyectos de la cátedra de Sistemas y Organizaciones en Ingeniería en Sistemas de Información. TE&ET 2018: XIII Congreso de Tecnología en Educación y Educación en Tecnología, Misiones, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Vinculación de líneas de I+D con la extensión universitaria. El caso de GEMIS en UTN-FRBA",
+        "description": "Trabajo sobre la vinculación entre líneas de investigación y desarrollo con la extensión universitaria, a partir del caso GEMIS en UTN-FRBA.",
+        "citation": "Vinculación de líneas de I+D con la extensión universitaria. El caso de GEMIS en UTN-FRBA. WICC 2018: XX Workshop de Investigadores de Ciencias de la Computación, Universidad Nacional del Noroeste.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Diagnóstico del Proceso de Aprendizaje de Alumnos de Inteligencia Artificial mediante un Modelo Dinámico Bayesiano",
+        "description": "Trabajo sobre el diagnóstico del proceso de aprendizaje de alumnos de Inteligencia Artificial mediante un modelo dinámico bayesiano.",
+        "citation": "Diagnóstico del Proceso de Aprendizaje de Alumnos de Inteligencia Artificial mediante un Modelo Dinámico Bayesiano. Revista Tecnología Y Ciencia, (33).",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Uso de Instagram como Herramienta Didáctica para el Proceso de Enseñanza-Aprendizaje",
+        "description": "Trabajo sobre el uso de Instagram como herramienta didáctica en procesos de enseñanza-aprendizaje.",
+        "citation": "Uso de Instagram como Herramienta Didáctica para el Proceso de Enseñanza-Aprendizaje. CONAIISI 2018.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Problemáticas educativas en el nivel universitario: un relevamiento en documentos públicos",
+        "description": "Trabajo sobre problemáticas educativas en el nivel universitario a partir de un relevamiento de documentos públicos.",
+        "citation": "Problemáticas educativas en el nivel universitario: un relevamiento en documentos públicos. CIEDUC 2017.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Evaluación de Datos de Desempeño de Alumnos de la Asignatura ‘Sistemas y Organizaciones’ mediante Método basado en Emparrillado",
+        "description": "Trabajo sobre evaluación de datos de desempeño de alumnos mediante un método basado en emparrillado.",
+        "citation": "Evaluación de Datos de Desempeño de Alumnos de la Asignatura ‘Sistemas y Organizaciones’ mediante Método basado en Emparrillado. CONAIISI 2017.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Explotación de Información para el análisis de los procesos de enseñanza. Caso de estudio: el rol del Ingeniero y las percepciones de los alumnos",
+        "description": "Trabajo sobre explotación de información para analizar procesos de enseñanza, el rol del ingeniero y las percepciones de los alumnos.",
+        "citation": "Explotación de Información para el análisis de los procesos de enseñanza. Caso de estudio: el rol del Ingeniero y las percepciones de los alumnos. CACIC 2017, La Plata, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Tecnología Informática para facilitar la labor docente en la formación por competencias en Ingeniería",
+        "description": "Trabajo sobre tecnología informática aplicada al apoyo de la labor docente en la formación por competencias en ingeniería.",
+        "citation": "Tecnología Informática para facilitar la labor docente en la formación por competencias en Ingeniería. Congreso Internacional sobre el Enfoque basado en Competencias, Cartagena de Indias, 2016.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Metodología para el desarrollo de software en proyectos de I+D en el nivel universitario basada en Scrum",
+        "description": "Trabajo sobre una metodología basada en Scrum para desarrollar software en proyectos de investigación y desarrollo universitarios.",
+        "citation": "Metodología para el desarrollo de software en proyectos de I+D en el nivel universitario basada en Scrum. CACIC 2016.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Implementación de Sistemas Inteligentes para la asistencia a alumnos y docentes de la Carrera de Ingeniería en Sistemas de Información",
+        "description": "Trabajo sobre implementación de sistemas inteligentes para asistir a alumnos y docentes de Ingeniería en Sistemas de Información.",
+        "citation": "Implementación de Sistemas Inteligentes para la asistencia a alumnos y docentes de la Carrera de Ingeniería en Sistemas de Información. WICC 2016, Entre Ríos, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Nuevos medios digitales y nuevos alfabetismos",
+        "description": "Trabajo sobre nuevos medios digitales y nuevos alfabetismos en contextos educativos.",
+        "citation": "Nuevos medios digitales y nuevos alfabetismos. TE&ET 2016, Morón, Buenos Aires.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Proyectos educativos como solución a problemas hallados en el proceso de enseñanza y aprendizaje en una cátedra de Ingeniería en Sistemas de Información",
+        "description": "Trabajo sobre proyectos educativos como respuesta a problemas detectados en procesos de enseñanza y aprendizaje.",
+        "citation": "Proyectos educativos como solución a problemas hallados en el proceso de enseñanza y aprendizaje en una cátedra de Ingeniería en Sistemas de Información. TE&ET 2016: XI Congreso de Tecnología en Educación y Educación en Tecnología, Morón, Buenos Aires, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "El desarrollo de artefactos de tecnología informática como aporte a las intervenciones didácticas",
+        "description": "Trabajo sobre el desarrollo de artefactos de tecnología informática como aporte a intervenciones didácticas.",
+        "citation": "El desarrollo de artefactos de tecnología informática como aporte a las intervenciones didácticas. CONAIISI 2015, Buenos Aires, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Avances en el análisis del seguimiento de perfiles de alumnos y de sus percepciones sobre la carrera de Ingeniería en Sistemas de Información mediante Explotación de Información",
+        "description": "Trabajo sobre el análisis de perfiles de alumnos y sus percepciones mediante explotación de información.",
+        "citation": "Avances en el análisis del seguimiento de perfiles de alumnos y de sus percepciones sobre la carrera de Ingeniería en Sistemas de Información mediante Explotación de Información. CONAIISI 2015, Buenos Aires, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Diseño de Aplicación Móvil para Asignatura de grado en Ingeniería en Sistemas de Información",
+        "description": "Trabajo sobre el diseño de una aplicación móvil para una asignatura de grado en Ingeniería en Sistemas de Información.",
+        "citation": "Diseño de Aplicación Móvil para Asignatura de grado en Ingeniería en Sistemas de Información. CONAIISI 2015, Buenos Aires, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Mejora de la didáctica en la enseñanza de la Ingeniería a través del uso de nuevas aplicaciones sobre los dispositivos móviles",
+        "description": "Trabajo sobre mejora de la didáctica en ingeniería mediante el uso de aplicaciones móviles.",
+        "citation": "Mejora de la didáctica en la enseñanza de la Ingeniería a través del uso de nuevas aplicaciones sobre los dispositivos móviles. TE&ET 2015, Paraná, Corrientes, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Intervención tecnológica no convencional en los dispositivos didácticos de la carrera de Ingeniería en Sistemas de Información",
+        "description": "Trabajo sobre intervenciones tecnológicas no convencionales en dispositivos didácticos de Ingeniería en Sistemas de Información.",
+        "citation": "Intervención tecnológica no convencional en los dispositivos didácticos de la carrera de Ingeniería en Sistemas de Información. WICC 2015: XVII Workshop de Investigadores de Ciencias de la Computación, Salta, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Propuesta de desarrollo de aplicación móvil para la evaluación dinámica en asignatura de grado en Ingeniería en Sistemas de Información",
+        "description": "Trabajo sobre una propuesta de aplicación móvil para evaluación dinámica en una asignatura de grado.",
+        "citation": "Propuesta de desarrollo de aplicación móvil para la evaluación dinámica en asignatura de grado en Ingeniería en Sistemas de Información. WICC 2015: XVII Workshop de Investigadores de Ciencias de la Computación, Salta, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Software para análisis de instrumentos de evaluación en la formación por competencias",
+        "description": "Trabajo sobre software para analizar instrumentos de evaluación en la formación por competencias.",
+        "citation": "Software para análisis de instrumentos de evaluación en la formación por competencias. CACIC 2014.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Identificación de Perfiles de Alumnos y Análisis de sus Percepciones sobre la carrera de Ingeniería en Sistemas de Información mediante Explotación de Información",
+        "description": "Trabajo sobre identificación de perfiles de alumnos y análisis de percepciones mediante explotación de información.",
+        "citation": "Identificación de Perfiles de Alumnos y Análisis de sus Percepciones sobre la carrera de Ingeniería en Sistemas de Información mediante Explotación de Información. CACIC 2014.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Intervenciones tecnológicas no convencionales en dispositivos pedagógicos",
+        "description": "Trabajo sobre intervenciones tecnológicas no convencionales aplicadas a dispositivos pedagógicos.",
+        "citation": "Intervenciones tecnológicas no convencionales en dispositivos pedagógicos. JEIN 2014, Avellaneda, Universidad Tecnológica Nacional.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Evaluación de competencias en la carrera de Ingeniería en Sistemas",
+        "description": "Trabajo sobre evaluación de competencias en la carrera de Ingeniería en Sistemas.",
+        "citation": "Evaluación de competencias en la carrera de Ingeniería en Sistemas. JEIN 2014, Avellaneda, Universidad Tecnológica Nacional.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "La importancia de las competencias sociales en el marco de la integración regional",
+        "description": "Trabajo sobre la importancia de las competencias sociales en procesos de integración regional.",
+        "citation": "La importancia de las competencias sociales en el marco de la integración regional. JISO 2014, Buenos Aires, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    },
+    {
+        "category": "education-tics",
+        "title": "Sobre la utilización de TIC en la formación de Ingenieros: pensando fundamentos en contextos de enseñanza-aprendizaje",
+        "description": "Trabajo sobre la utilización de TIC en la formación de ingenieros y sus fundamentos en contextos de enseñanza-aprendizaje.",
+        "citation": "Sobre la utilización de TIC en la formación de Ingenieros: pensando fundamentos en contextos de enseñanza-aprendizaje. I Jornadas Nacionales de Ingeniería y Sociedad, Buenos Aires, Argentina.",
+        "pdf": "",
+        "sourceUrl": "https://grupogemis.com.ar/gemiswp/publicaciones/publicaciones-educacion/"
+    }
+]
