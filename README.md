@@ -7,6 +7,7 @@ Sitio estático listo para Vercel con cuatro entradas principales:
 - `/consulting` - Grupo Gemis Consulting
 - `/academy` - Grupo Gemis Academy
 - `/contact` - Contacto
+- `/maintenance` - Sitio en mantenimiento
 
 ## Por qué Vercel
 
@@ -27,11 +28,10 @@ grupo-gemis-web/
   consulting/index.html
   academy/index.html
   contact/index.html
-  assets/
-    css/styles.css
-    js/main.js
-    img/
-    data/papers.json
+  maintenance/index.html
+  assets/css/styles.css
+  assets/js/main.js
+  assets/img/
   vercel.json
   package.json
 ```
@@ -55,6 +55,30 @@ También podés usar directamente:
 ```bash
 python3 -m http.server 3000
 ```
+
+## Página de mantenimiento
+
+La página de mantenimiento está disponible en:
+
+```text
+http://localhost:3000/maintenance/
+```
+
+En producción sería:
+
+```text
+https://www.grupogemis.com/maintenance/
+```
+
+El sitio está actualmente configurado para mostrar mantenimiento global desde `vercel.json`.
+
+Para volver al sitio normal:
+
+1. Renombrar `vercel.json` a `vercel.maintenance.json`.
+2. Renombrar `vercel.production.json` a `vercel.json`.
+3. Commit + push a `main`.
+
+Para volver a activar mantenimiento más adelante, invertir nuevamente esos nombres y pushear.
 
 ## Deploy en Vercel
 
@@ -95,13 +119,13 @@ Si el dominio está en Squarespace, se puede apuntar a Vercel desde DNS cuando e
 El logo principal ya está guardado en:
 
 ```txt
-assets/img/logo-gemis.png
+assets/img/logo-gemis-official.png
 ```
 
 Todas las páginas lo usan con:
 
 ```html
-<img class="brand-logo" src="/assets/img/logo-gemis.png" alt="Grupo Gemis" data-logo>
+<img class="brand-logo" src="/assets/img/logo-gemis-official.png?v=20260420b" alt="Grupo Gemis" data-logo>
 ```
 
 ## Formularios
