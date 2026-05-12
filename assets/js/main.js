@@ -25,11 +25,25 @@ if (brand && logo && logo.getAttribute('src')) {
 
 const navToggle = document.querySelector('[data-nav-toggle]');
 const navLinks = document.querySelector('[data-nav-links]');
+const navBar = navToggle ? navToggle.closest('.nav') : null;
 
 if (navToggle && navLinks) {
+  const closeNavigation = () => {
+    navLinks.classList.remove('is-open');
+    navBar?.classList.remove('is-open');
+    navToggle.setAttribute('aria-expanded', 'false');
+    navToggle.setAttribute('aria-label', 'Abrir navegación');
+  };
+
   navToggle.addEventListener('click', () => {
     const isOpen = navLinks.classList.toggle('is-open');
+    navBar?.classList.toggle('is-open', isOpen);
     navToggle.setAttribute('aria-expanded', String(isOpen));
+    navToggle.setAttribute('aria-label', isOpen ? 'Cerrar navegación' : 'Abrir navegación');
+  });
+
+  navLinks.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', closeNavigation);
   });
 }
 
