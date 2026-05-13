@@ -204,7 +204,7 @@ a { color: inherit; text-decoration: none; }
 }
 
 .home-hero .hero-grid {
-  grid-template-columns: minmax(0, 0.96fr) minmax(420px, 0.74fr);
+  grid-template-columns: minmax(0, 0.9fr) minmax(500px, 0.8fr);
   align-items: center;
 }
 
@@ -216,6 +216,14 @@ a { color: inherit; text-decoration: none; }
 .home-hero .visual-card {
   min-height: 430px;
 }
+
+.home-hero .orbit {
+  min-height: 292px;
+}
+
+.home-hero .node-a { left: 14px; }
+.home-hero .node-b { right: 0; }
+.home-hero .node-c { left: 28%; }
 
 .eyebrow, .section-kicker {
   display: inline-flex;
