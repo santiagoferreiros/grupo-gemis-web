@@ -1000,9 +1000,111 @@ body.modal-open {
   width: min(820px, calc(100% - 32px));
 }
 
+.paper-search {
+  max-width: 920px;
+  display: grid;
+  gap: 14px;
+  padding: 18px;
+  border: 1px solid rgba(223, 230, 242, 0.96);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 18px 42px rgba(22, 24, 43, 0.08);
+}
+
+.paper-search-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.paper-search-label {
+  color: var(--blue);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.paper-search-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 10px;
+  align-items: center;
+}
+
+.paper-search-input {
+  width: 100%;
+  min-height: 44px;
+  padding: 0 15px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #fff;
+  color: var(--ink);
+  font: 700 15px/1 "Manrope", sans-serif;
+  outline: none;
+  transition: border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.paper-search-input:focus {
+  border-color: rgba(17, 85, 204, 0.48);
+  box-shadow: 0 0 0 4px rgba(17, 85, 204, 0.10);
+}
+
+.paper-search-count {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.paper-search-clear {
+  min-height: 44px;
+  padding: 0 16px;
+  color: var(--blue);
+  background: var(--blue-soft);
+}
+
+.paper-search-results {
+  padding-top: 4px;
+}
+
+.paper-search-results[hidden] {
+  display: none;
+}
+
+.paper-search-empty {
+  margin: 0;
+  padding: 18px 20px;
+  border: 1px solid rgba(223, 230, 242, 0.96);
+  border-radius: 14px;
+  background: #fff;
+  color: var(--slate);
+  font-weight: 700;
+}
+
 @media (max-width: 760px) {
   .papers-panel {
     padding: 16px;
+  }
+
+  .paper-search {
+    padding: 16px;
+  }
+
+  .paper-search-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .paper-search-row {
+    grid-template-columns: 1fr;
+  }
+
+  .paper-search-count {
+    text-align: left;
   }
 
   .paper-item {

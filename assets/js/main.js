@@ -664,6 +664,10 @@ if (
 const papersKnowledgeManagement = document.getElementById('papers-knowledge-management');
 const papersArtificialIntelligence = document.getElementById('papers-artificial-intelligence');
 const papersEducationTics = document.getElementById('papers-education-tics');
+const paperSearch = document.getElementById('paperSearch');
+const paperSearchClear = document.getElementById('paperSearchClear');
+const paperSearchCount = document.getElementById('paperSearchCount');
+const paperSearchResults = document.getElementById('paperSearchResults');
 
 const paperModal = document.getElementById('paperModal');
 const modalPaperTitle = document.getElementById('modalPaperTitle');
@@ -686,6 +690,81 @@ if (
     'knowledge-management': papersKnowledgeManagement,
     'artificial-intelligence': papersArtificialIntelligence,
     'education-tics': papersEducationTics
+  };
+
+  const paperSections = Object.fromEntries(
+    Object.entries(paperContainers).map(([category, container]) => [category, container.closest('section')])
+  );
+
+  const paperCategoryLabels = {
+    'knowledge-management': 'Gestión del Conocimiento',
+    'artificial-intelligence': 'Inteligencia Artificial y Sistemas Inteligentes',
+    'education-tics': 'Educación & TICs'
+  };
+
+  const normalizeSearchText = (value) => String(value || '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase();
+
+  const getEditDistance = (left, right) => {
+    const previous = Array.from({ length: right.length + 1 }, (_, index) => index);
+
+    for (let leftIndex = 1; leftIndex <= left.length; leftIndex += 1) {
+      const current = [leftIndex];
+
+      for (let rightIndex = 1; rightIndex <= right.length; rightIndex += 1) {
+        const cost = left[leftIndex - 1] === right[rightIndex - 1] ? 0 : 1;
+        current[rightIndex] = Math.min(
+          current[rightIndex - 1] + 1,
+          previous[rightIndex] + 1,
+          previous[rightIndex - 1] + cost
+        );
+      }
+
+      previous.splice(0, previous.length, ...current);
+    }
+
+    return previous[right.length];
+  };
+
+  const fuzzyTokenMatches = (token, searchableText) => {
+    const words = searchableText
+      .split(/\s+/)
+      .filter(Boolean);
+
+    if (token.length <= 2) {
+      return words.some((word) => word === token);
+    }
+
+    if (searchableText.includes(token)) return true;
+
+    if (token.length < 4) return false;
+
+    const maxDistance = token.length > 6 ? 2 : 1;
+    return words.some((word) => (
+      word.startsWith(token) ||
+      (Math.abs(word.length - token.length) <= maxDistance && getEditDistance(token, word) <= maxDistance)
+    ));
+  };
+
+  const getPaperSearchText = (paper) => normalizeSearchText([
+    paper.title,
+    paper.description,
+    paper.citation,
+    paperCategoryLabels[paper.category],
+    paper.category
+  ].join(' '));
+
+  const matchesPaperSearch = (paper, query) => {
+    const tokens = normalizeSearchText(query)
+      .split(/\s+/)
+      .filter(Boolean);
+
+    if (!tokens.length) return true;
+
+    const searchableText = getPaperSearchText(paper);
+    return tokens.every((token) => fuzzyTokenMatches(token, searchableText));
   };
 
   const getPaperCategoryFromHash = () => {
@@ -780,6 +859,66 @@ if (
     return article;
   };
 
+  const setPaperCategorySectionsVisible = (isVisible) => {
+    Object.values(paperSections).forEach((section) => {
+      if (section) {
+        section.hidden = !isVisible;
+      }
+    });
+  };
+
+  const renderPaperCards = (papers) => {
+    Object.values(paperContainers).forEach((container) => {
+      container.innerHTML = '';
+    });
+
+    papers.forEach((paper) => {
+      const container = paperContainers[paper.category];
+      if (!container) return;
+
+      container.appendChild(createPaperCard(paper));
+    });
+  };
+
+  const renderPapers = (papers, query = '') => {
+    const normalizedQuery = query.trim();
+    const filteredPapers = papers.filter((paper) => matchesPaperSearch(paper, normalizedQuery));
+
+    if (normalizedQuery && paperSearchResults) {
+      setPaperCategorySectionsVisible(false);
+      paperSearchResults.hidden = false;
+      paperSearchResults.innerHTML = '';
+
+      if (filteredPapers.length) {
+        filteredPapers.forEach((paper) => {
+          paperSearchResults.appendChild(createPaperCard(paper));
+        });
+      } else {
+        const emptyMessage = document.createElement('p');
+        emptyMessage.className = 'paper-search-empty';
+        emptyMessage.textContent = 'Probá con otro autor, tema, año o palabra del título.';
+        paperSearchResults.appendChild(emptyMessage);
+      }
+    } else {
+      setPaperCategorySectionsVisible(true);
+      if (paperSearchResults) {
+        paperSearchResults.hidden = true;
+        paperSearchResults.innerHTML = '';
+      }
+      renderPaperCards(papers);
+    }
+
+    if (paperSearchCount) {
+      if (normalizedQuery) {
+        paperSearchCount.textContent = filteredPapers.length
+          ? `${filteredPapers.length} resultado${filteredPapers.length === 1 ? '' : 's'} para "${normalizedQuery}"`
+          : `No se encontraron resultados para "${normalizedQuery}"`;
+      } else {
+        paperSearchCount.textContent = `${papers.length} publicaciones cargadas`;
+      }
+    }
+  };
+
   fetch('/assets/data/papers.json')
     .then((response) => {
       if (!response.ok) {
@@ -788,13 +927,25 @@ if (
       return response.json();
     })
     .then((papers) => {
-      papers.forEach((paper) => {
-        const container = paperContainers[paper.category];
-        if (!container) return;
+      renderPapers(papers);
 
-        const card = createPaperCard(paper);
-        container.appendChild(card);
-      });
+      if (paperSearch) {
+        paperSearch.addEventListener('input', () => {
+          renderPapers(papers, paperSearch.value);
+        });
+
+        paperSearch.addEventListener('search', () => {
+          renderPapers(papers, paperSearch.value);
+        });
+      }
+
+      if (paperSearchClear && paperSearch) {
+        paperSearchClear.addEventListener('click', () => {
+          paperSearch.value = '';
+          renderPapers(papers);
+          paperSearch.focus();
+        });
+      }
 
       openPaperCategoryFromHash(true);
       window.setTimeout(() => openPaperCategoryFromHash(true), 80);

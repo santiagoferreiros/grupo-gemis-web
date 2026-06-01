@@ -90,6 +90,23 @@
             </div>
         </section>
 
+        <section class="section compact" id="buscar-publicaciones">
+            <div class="shell">
+                <div class="paper-search" data-reveal>
+                    <div class="paper-search-header">
+                        <label class="paper-search-label" for="paperSearch">Buscar publicaciones</label>
+                        <p class="paper-search-count" id="paperSearchCount"></p>
+                    </div>
+                    <div class="paper-search-row">
+                        <input id="paperSearch" class="paper-search-input" type="search"
+                            placeholder="Buscar por título, autor, año, tema o evento" autocomplete="off" />
+                        <button class="button secondary paper-search-clear" id="paperSearchClear" type="button">Limpiar</button>
+                    </div>
+                    <div class="papers-list paper-search-results" id="paperSearchResults" hidden></div>
+                </div>
+            </div>
+        </section>
+
         <section class="section" id="knowledge-management">
             <div class="shell">
                 <div class="section-head" data-reveal>
@@ -203,7 +220,7 @@
         </div>
     </footer>
 
-    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/main.js?v=papers-search-3"></script>
 </body>
 
 </html>
