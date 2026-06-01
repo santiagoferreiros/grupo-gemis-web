@@ -405,10 +405,10 @@ h1 { margin: 0 0 26px; max-width: 920px; font-size: clamp(48px, 7vw, 92px); }
 .team-social-scholar span { font-size: 23px; }
 .team-group { margin-top: 22px; }
 .team-group .team-grid { padding-top: 0; }
-.member-list { display: grid; gap: 14px; margin: 0; padding: 0; list-style: none; }
-.member-item { padding: 20px 22px; border: 1px solid rgba(223, 230, 242, 0.88); border-radius: 18px; background: rgba(255, 255, 255, 0.72); }
-.member-item h3 { margin: 0 0 8px; font-size: 22px; }
-.member-item p { margin: 0; color: var(--slate); }
+.member-list { max-width: 900px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin: 0 auto; padding: 0; list-style: none; }
+.member-item { padding: 14px 16px; border: 1px solid rgba(223, 230, 242, 0.88); border-radius: 14px; background: rgba(255, 255, 255, 0.72); }
+.member-item h3 { margin: 0 0 4px; font-size: 18px; }
+.member-item p { margin: 0; color: var(--slate); font-size: 14px; line-height: 1.45; }
 .member-item p + p { margin-top: 6px; }
 .role { display: block; margin-bottom: 9px; color: var(--blue); font-weight: 800; font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; }
 
@@ -647,6 +647,7 @@ h1 { margin: 0 0 26px; max-width: 920px; font-size: clamp(48px, 7vw, 92px); }
   .hero-grid, .home-hero .hero-grid, .section-head, .grid-two, .contact-layout, .maintenance-card { grid-template-columns: 1fr; }
   .card-grid, .team-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .card-grid.three, .card-grid.two { grid-template-columns: 1fr; }
+  .member-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 @media (max-width: 760px) {
@@ -662,6 +663,7 @@ h1 { margin: 0 0 26px; max-width: 920px; font-size: clamp(48px, 7vw, 92px); }
   .actions .button { width: 100%; }
   .section { padding: 56px 0; }
   .card-grid, .team-grid { grid-template-columns: 240px; justify-content: center; }
+  .member-list { grid-template-columns: 1fr; }
   .panel, .visual-card, .cta { padding: 24px; border-radius: 26px; }
   .maintenance-main { padding: 26px 0; }
   .maintenance-card { padding: 24px; border-radius: 26px; }

@@ -384,12 +384,8 @@ if (
     const meta = document.createElement('p');
     meta.textContent = [fellow.year, fellow.program].filter(Boolean).join(' · ');
 
-    const project = document.createElement('p');
-    project.textContent = fellow.project || '';
-
     item.appendChild(title);
     item.appendChild(meta);
-    item.appendChild(project);
 
     return item;
   };
@@ -743,7 +739,7 @@ if (
       const pdfButton = document.createElement('a');
       pdfButton.href = paper.pdf;
       pdfButton.className = 'button primary';
-      pdfButton.textContent = 'Acceder al PDF';
+      pdfButton.textContent = 'Acceder a la publicaciÃ³n';
       modalPaperActions.appendChild(pdfButton);
     }
 
