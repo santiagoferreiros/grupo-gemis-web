@@ -269,24 +269,49 @@ if (
     return avatar;
   };
 
-  const createLinkedinButton = (member) => {
-    if (!member.linkedin) return null;
+  const profileLinks = [
+    {
+      key: 'linkedin',
+      label: 'LinkedIn',
+      className: 'team-social-linkedin',
+      mark: 'in'
+    },
+    {
+      key: 'orcid',
+      label: 'ORCID',
+      className: 'team-social-orcid',
+      mark: 'iD'
+    },
+    {
+      key: 'scholar',
+      label: 'Google Scholar',
+      className: 'team-social-scholar',
+      mark: 'G'
+    }
+  ];
+
+  const createProfileActions = (member) => {
+    const availableLinks = profileLinks.filter(({ key }) => member[key]);
+    if (!availableLinks.length) return null;
 
     const actions = document.createElement('div');
-    actions.className = 'actions';
+    actions.className = 'actions team-profile-actions';
 
-    const link = document.createElement('a');
-    link.className = 'button ghost team-link';
-    link.href = member.linkedin;
-    link.target = '_blank';
-    link.rel = 'noopener';
-    link.setAttribute('aria-label', `LinkedIn de ${member.name}`);
+    availableLinks.forEach(({ key, label, className, mark }) => {
+      const link = document.createElement('a');
+      link.className = `button team-social-link ${className}`;
+      link.href = member[key];
+      link.target = '_blank';
+      link.rel = 'noopener';
+      link.title = label;
+      link.setAttribute('aria-label', `${label} de ${member.name}`);
 
-    const mark = document.createElement('span');
-    mark.textContent = 'in';
+      const icon = document.createElement('span');
+      icon.textContent = mark;
 
-    link.appendChild(mark);
-    actions.appendChild(link);
+      link.appendChild(icon);
+      actions.appendChild(link);
+    });
 
     return actions;
   };
@@ -303,16 +328,10 @@ if (
     modalTeamDescription.textContent = member.description || 'Información en actualización.';
     modalTeamActions.innerHTML = '';
 
-    const linkedinButton = createLinkedinButton(member);
-    if (linkedinButton) {
-      const link = linkedinButton.querySelector('a');
-      if (link) {
-        link.classList.remove('ghost', 'team-link');
-        link.classList.add('primary', 'team-modal-link');
-        link.innerHTML = '<span class="team-modal-link-mark">in</span><span>Ver LinkedIn</span>';
-      }
-      linkedinButton.classList.add('team-modal-actions');
-      modalTeamActions.appendChild(linkedinButton);
+    const profileActions = createProfileActions(member);
+    if (profileActions) {
+      profileActions.classList.add('team-modal-actions');
+      modalTeamActions.appendChild(profileActions);
     }
 
     teamModal.classList.add('is-open');

@@ -6,7 +6,9 @@
       "role": "Directora GEMIS",
       "description": "Directora del Grupo. Doctora en Ciencias Informáticas por la Facultad de Informática de la Universidad Nacional de La Plata. Magíster en Ingeniería en Software - Doble Titulación: Universidad Politécnica de Madrid / Instituto Tecnológico de Buenos Aires. Especialista en Construcción de Sistemas Expertos (ITBA). Ingeniera en Sistemas de Información por la UTN FRBA.",
       "image": "/assets/img/profiles/maria-florencia-pollo-cattaneo.jpg",
-      "linkedin": "https://ar.linkedin.com/in/florencia-pollo-7bb16719b"
+      "linkedin": "https://ar.linkedin.com/in/florencia-pollo-7bb16719b",
+      "orcid": "",
+      "scholar": ""
     },
     {
       "name": "Pablo Pytel",
@@ -14,7 +16,9 @@
       "role": "Director de Proyectos",
       "description": "Ingeniero en Sistemas de Información (Facultad Regional Buenos Aires de la Universidad Tecnológica Nacional), Magíster en Ingeniería en Software (Universidad Politécnica de Madrid - Instituto Tecnológico de Buenos Aires), y Doctor en Ciencias Informáticas (Facultad de Informática de Universidad Nacional de La Plata).",
       "image": "/assets/img/profiles/pablo-pytel.jpg",
-      "linkedin": "https://www.linkedin.com/in/pytel/"
+      "linkedin": "https://www.linkedin.com/in/pytel/",
+      "orcid": "",
+      "scholar": ""
     },
     {
       "name": "Luciano Straccia",
@@ -22,7 +26,9 @@
       "role": "Director de Proyectos",
       "description": "Ingeniero en Sistemas de Información por la UTN FRBA y Magister en Educación (orientación Gestión Educativa) por la Universidad de San Andrés. Docente-investigador, trabaja en gestión educativa y es consultor en servicios de tecnología de información.",
       "image": "/assets/img/profiles/luciano-straccia.jpg",
-      "linkedin": "https://ar.linkedin.com/in/luciano-straccia"
+      "linkedin": "https://ar.linkedin.com/in/luciano-straccia",
+      "orcid": "",
+      "scholar": ""
     },
     {
       "name": "Inés Casanovas",
@@ -30,7 +36,9 @@
       "role": "Investigadora",
       "description": "Ph.D. in Informatics (Jönköping International Business School, Jönköping University, Suecia). Magíster en Docencia Universitaria (Universidad Tecnológica Nacional-FRBA), Magíster en Informática (UNLaM). Ingeniería en Sistemas de Información (Universidad Tecnológica Nacional-FRBA).",
       "image": "/assets/img/profiles/ines-casanovas.jpg",
-      "linkedin": "https://www.linkedin.com/in/ines-casanovas-9023a919"
+      "linkedin": "https://www.linkedin.com/in/ines-casanovas-9023a919",
+      "orcid": "",
+      "scholar": ""
     },
     {
       "name": "Cintia Vegega",
@@ -38,7 +46,9 @@
       "role": "Investigadora",
       "description": "Ingeniera en Sistemas de Información por la UTN FRBA. Cursando actualmente la Maestría en Ingeniería de Sistemas de Información en UTN Escuela de Posgrado.",
       "image": "/assets/img/profiles/cintia-vegega.jpg",
-      "linkedin": "https://www.linkedin.com/in/cinthia-vegega"
+      "linkedin": "https://www.linkedin.com/in/cinthia-vegega",
+      "orcid": "",
+      "scholar": ""
     },
     {
       "name": "Parag Chatterjee",
@@ -46,7 +56,9 @@
       "role": "Investigador",
       "description": "PhD | Investigador - Universidad Tecnológica Nacional, Buenos Aires, Argentina | Docente - Universidad de la República Uruguay",
       "image": "/assets/img/profiles/parag-chatterjee.jpg",
-      "linkedin": "https://www.linkedin.com/in/paragchat/"
+      "linkedin": "https://www.linkedin.com/in/paragchat/",
+      "orcid": "",
+      "scholar": ""
     },
     {
       "name": "Ariel Deroche",
@@ -54,7 +66,9 @@
       "role": "Investigador",
       "description": "Ingeniero en Sistemas de Información por la UTN FRBA.",
       "image": "/assets/img/profiles/ariel-deroche.jpg",
-      "linkedin": "https://www.linkedin.com/in/ariel-deroche/"
+      "linkedin": "https://www.linkedin.com/in/ariel-deroche/",
+      "orcid": "",
+      "scholar": ""
     },
     {
       "name": "Adriana Maulini Buño",
@@ -62,7 +76,9 @@
       "role": "Investigadora",
       "description": "",
       "image": "/assets/img/profiles/adriana-maulini-buno.jpg",
-      "linkedin": "https://www.linkedin.com/in/adriana-maulini/"
+      "linkedin": "https://www.linkedin.com/in/adriana-maulini/",
+      "orcid": "",
+      "scholar": ""
     },
     {
       "name": "Brenda Baruzzini",
@@ -70,7 +86,9 @@
       "role": "Investigadora Estudiante",
       "description": "",
       "image": "/assets/img/profiles/brenda-baruzzini.jpg",
-      "linkedin": "https://ar.linkedin.com/in/brenda-baruzzini"
+      "linkedin": "https://ar.linkedin.com/in/brenda-baruzzini",
+      "orcid": "",
+      "scholar": ""
     },
     {
       "name": "Abril Caruso",
@@ -78,7 +96,9 @@
       "role": "Investigadora Estudiante",
       "description": "",
       "image": "/assets/img/profiles/abril-caruso.jpg",
-      "linkedin": "https://ar.linkedin.com/in/abril-caruso-74a61b251"
+      "linkedin": "https://ar.linkedin.com/in/abril-caruso-74a61b251",
+      "orcid": "",
+      "scholar": ""
     },
     {
       "name": "Camila Berro",
@@ -86,7 +106,9 @@
       "role": "Investigadora Estudiante",
       "description": "",
       "image": "/assets/img/profiles/camila-berro.jpg",
-      "linkedin": "https://ar.linkedin.com/in/camila-andrea-berro-7923b0264"
+      "linkedin": "https://ar.linkedin.com/in/camila-andrea-berro-7923b0264",
+      "orcid": "",
+      "scholar": ""
     },
     {
       "name": "Chabela Lamas",
@@ -94,7 +116,9 @@
       "role": "Investigadora Estudiante",
       "description": "",
       "image": "/assets/img/profiles/chabela-lamas.jpg",
-      "linkedin": "https://www.linkedin.com/in/chabela-lamas"
+      "linkedin": "https://www.linkedin.com/in/chabela-lamas",
+      "orcid": "",
+      "scholar": ""
     },
     {
       "name": "Franco Cortínez",
@@ -102,7 +126,9 @@
       "role": "Investigador Estudiante",
       "description": "Téc. Informática profesional y personal en Programación.",
       "image": "/assets/img/profiles/francocortinez.jpg",
-      "linkedin": "https://www.linkedin.com/in/francocortinez"
+      "linkedin": "https://www.linkedin.com/in/francocortinez",
+      "orcid": "https://orcid.org/0000-0002-1110-5989",
+      "scholar": ""
     }
   ],
   "thesis": [
@@ -112,7 +138,9 @@
       "role": "Tesista",
       "description": "Propuesta de un modelo de Gestión del Conocimiento para fábricas de software. Directora: Dra. Ing. María Florencia Pollo-Cattaneo. Plan de Tesis aprobado por Resolución Nro. 2686/18. Fecha de Defensa de Tesis: 06/07/2021. Universidad Tecnológica Nacional, Facultad Regional Buenos Aires (UTN-FRBA), Escuela de Posgrado. Carrera Maestría en Ingeniería en Sistemas de Información.",
       "image": "/assets/img/profiles/adriana-maulini-buno.jpg",
-      "linkedin": "https://www.linkedin.com/in/adriana-maulini/"
+      "linkedin": "https://www.linkedin.com/in/adriana-maulini/",
+      "orcid": "",
+      "scholar": ""
     }
   ],
   "fellows": [
