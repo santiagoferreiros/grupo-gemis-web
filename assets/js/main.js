@@ -47,6 +47,92 @@ if (navToggle && navLinks) {
   });
 }
 
+const homeNews = document.getElementById('home-news');
+
+if (homeNews) {
+  const getYouTubeEmbedUrl = (url) => {
+    const value = String(url || '').trim();
+    const match = value.match(/(?:youtu\.be\/|youtube\.com\/watch\?v=|youtube\.com\/embed\/)([^?&/]+)/);
+    return match ? `https://www.youtube.com/embed/${match[1]}` : '';
+  };
+
+  const createNewsCard = (item, index) => {
+    const article = document.createElement('article');
+    article.className = index === 0 ? 'news-card news-card-featured' : 'news-card';
+
+    const media = document.createElement('div');
+    media.className = 'news-media';
+
+    const embedUrl = getYouTubeEmbedUrl(item.videoUrl);
+    if (embedUrl) {
+      const iframe = document.createElement('iframe');
+      iframe.src = embedUrl;
+      iframe.title = item.title || 'Video de Grupo Gemis';
+      iframe.loading = 'lazy';
+      iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+      iframe.allowFullscreen = true;
+      media.appendChild(iframe);
+    } else {
+      const typeLabel = document.createElement('span');
+      typeLabel.textContent = item.type || 'Novedad';
+      media.appendChild(typeLabel);
+    }
+
+    const content = document.createElement('div');
+    content.className = 'news-content';
+
+    const meta = document.createElement('p');
+    meta.className = 'news-meta';
+    meta.textContent = [item.type, item.date].filter(Boolean).join(' - ');
+
+    const title = document.createElement('h3');
+    title.textContent = item.title || '';
+
+    const description = document.createElement('p');
+    description.textContent = item.description || '';
+
+    content.appendChild(meta);
+    content.appendChild(title);
+    content.appendChild(description);
+
+    if (item.url) {
+      const link = document.createElement('a');
+      link.className = 'button primary';
+      link.href = item.url;
+      link.textContent = item.cta || 'Acceder';
+
+      if (/^https?:\/\//.test(item.url)) {
+        link.target = '_blank';
+        link.rel = 'noopener';
+      }
+
+      content.appendChild(link);
+    }
+
+    article.appendChild(media);
+    article.appendChild(content);
+    return article;
+  };
+
+  fetch('/assets/data/news.json')
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error('No se pudo cargar news.json');
+      }
+      return response.json();
+    })
+    .then((items) => {
+      homeNews.innerHTML = '';
+
+      (items || []).slice(0, 4).forEach((item, index) => {
+        homeNews.appendChild(createNewsCard(item, index));
+      });
+    })
+    .catch((error) => {
+      console.error('Error cargando novedades:', error);
+    });
+}
+
 const teamInvestigators = document.getElementById('team-investigators');
 const teamThesis = document.getElementById('team-thesis');
 const teamFellows = document.getElementById('team-fellows');

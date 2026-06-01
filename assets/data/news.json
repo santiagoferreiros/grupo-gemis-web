@@ -1,0 +1,27 @@
+[
+  {
+    "type": "Video",
+    "date": "Enero 2025",
+    "title": "La IA que busca revolucionar el diagnóstico médico",
+    "description": "Entrevista a María Florencia Pollo-Cattaneo sobre inteligencia artificial aplicada al diagnóstico médico.",
+    "url": "https://youtu.be/lbX6y0a8lgo",
+    "videoUrl": "https://youtu.be/lbX6y0a8lgo",
+    "cta": "Ver video"
+  },
+  {
+    "type": "Publicación",
+    "date": "2026",
+    "title": "Publicaciones recientes del grupo",
+    "description": "Producción académica organizada por líneas de investigación, autores y año de publicación.",
+    "url": "/research/papers/",
+    "cta": "Ver publicaciones"
+  },
+  {
+    "type": "Transferencia",
+    "date": "Actualizable",
+    "title": "Transferencia tecnológica y conocimiento aplicado",
+    "description": "Proyectos, metodologías y experiencias donde la investigación se transforma en soluciones aplicadas.",
+    "url": "/research/technology-transfer/",
+    "cta": "Explorar transferencia"
+  }
+]
