@@ -310,22 +310,6 @@ h1 { margin: 0 0 26px; max-width: 920px; font-size: clamp(48px, 7vw, 92px); }
 .hero-copy { max-width: 790px; margin: 0; color: var(--slate); font-size: clamp(18px, 2.2vw, 24px); line-height: 1.55; }
 .actions { display: flex; flex-wrap: wrap; gap: 14px; margin: 28px 0 0; }
 
-.chips, .tag-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 26px; }
-.chip, .tag {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  min-height: 36px;
-  padding: 0 14px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.82);
-  color: var(--slate);
-  font-weight: 800;
-  font-size: 13px;
-}
-.chip::before, .tag::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--blue); box-shadow: 0 0 0 6px rgba(17, 85, 204, 0.08); }
-
 .visual-card, .panel, .card, .mini-card, .details-block, .contact-card, .cta {
   background: rgba(255, 255, 255, 0.88);
   border: 1px solid rgba(223, 230, 242, 0.88);
@@ -1105,7 +1089,7 @@ body.modal-open {
 }
 
 .paper-search {
-  max-width: 920px;
+  width: 100%;
   display: grid;
   gap: 14px;
   padding: 18px;
