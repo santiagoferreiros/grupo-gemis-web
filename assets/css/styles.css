@@ -39,10 +39,12 @@ body {
 body::before {
   content: "";
   position: fixed;
-  inset: 0 auto 0 0;
-  width: 58px;
-  background: var(--navy);
-  border-radius: 0 0 42px 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: clamp(10px, 1.7vw, 22px);
+  background: linear-gradient(180deg, var(--navy), var(--blue));
+  border-radius: 0 0 18px 0;
   z-index: -1;
 }
 
@@ -739,7 +741,7 @@ h1 { margin: 0 0 26px; max-width: 920px; font-size: clamp(48px, 7vw, 92px); }
 }
 
 @media (max-width: 760px) {
-  body::before { width: 22px; }
+  body::before { display: none; }
   .shell { width: min(100% - 28px, var(--max)); }
   .nav { min-height: 72px; }
   .brand { font-size: 28px; }
