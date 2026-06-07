@@ -134,8 +134,9 @@ if (homeNews) {
 }
 
 const teamInvestigators = document.getElementById('team-investigators');
-const teamThesis = document.getElementById('team-thesis');
-const teamFellows = document.getElementById('team-fellows');
+const teamThesisResearchers = document.getElementById('team-thesis-researchers');
+const teamResearchersInTraining = document.getElementById('team-researchers-in-training');
+const teamFormer = document.getElementById('team-former');
 const teamModal = document.getElementById('teamModal');
 const modalTeamPhoto = document.getElementById('modalTeamPhoto');
 const modalTeamName = document.getElementById('modalTeamName');
@@ -146,8 +147,9 @@ const closeTeamModalButtons = document.querySelectorAll('[data-close-team-modal]
 
 if (
   teamInvestigators &&
-  teamThesis &&
-  teamFellows &&
+  teamThesisResearchers &&
+  teamResearchersInTraining &&
+  teamFormer &&
   teamModal &&
   modalTeamPhoto &&
   modalTeamName &&
@@ -460,15 +462,15 @@ if (
     return article;
   };
 
-  const createFellowItem = (fellow) => {
+  const createFormerMemberItem = (member) => {
     const item = document.createElement('li');
     item.className = 'member-item';
 
     const title = document.createElement('h3');
-    title.textContent = fellow.name || '';
+    title.textContent = member.name || '';
 
     const meta = document.createElement('p');
-    meta.textContent = [fellow.year, fellow.program].filter(Boolean).join(' · ');
+    meta.textContent = [member.year, member.role || 'Becario'].filter(Boolean).join(' · ');
 
     item.appendChild(title);
     item.appendChild(meta);
@@ -476,21 +478,91 @@ if (
     return item;
   };
 
-  const renderTeam = (team) => {
-    teamInvestigators.innerHTML = '';
-    teamThesis.innerHTML = '';
-    teamFellows.innerHTML = '';
+  const normalizeTeam = (team) => {
+    if (team.current && !Array.isArray(team.current)) {
+      return {
+        current: {
+          investigators: team.current.investigators || [],
+          thesisResearchers: team.current.thesisResearchers || [],
+          researchersInTraining: team.current.researchersInTraining || []
+        },
+        former: team.former || []
+      };
+    }
 
-    (team.investigators || []).forEach((member) => {
-      teamInvestigators.appendChild(createTeamCard(member));
+    const currentItems = team.current || [];
+    const currentByName = new Map();
+
+    [...currentItems, ...(team.investigators || [])].forEach((member) => {
+      currentByName.set(member.name, member);
     });
 
     (team.thesis || []).forEach((member) => {
-      teamThesis.appendChild(createTeamCard(member));
+      currentByName.set(member.name, {
+        ...currentByName.get(member.name),
+        ...member,
+        role: 'Investigador Tesista'
+      });
     });
 
-    (team.fellows || []).forEach((fellow) => {
-      teamFellows.appendChild(createFellowItem(fellow));
+    const current = {
+      investigators: [],
+      thesisResearchers: [],
+      researchersInTraining: []
+    };
+
+    Array.from(currentByName.values()).forEach((member) => {
+      const normalizedMember = {
+        ...member,
+        role: member.role === 'Investigador Estudiante' || member.role === 'Investigadora Estudiante'
+          ? 'Investigador en Formación'
+          : member.role
+      };
+
+      if (normalizedMember.role === 'Investigador Tesista') {
+        current.thesisResearchers.push(normalizedMember);
+        return;
+      }
+
+      if (normalizedMember.role === 'Investigador en Formación') {
+        current.researchersInTraining.push(normalizedMember);
+        return;
+      }
+
+      current.investigators.push(normalizedMember);
+    });
+
+    return {
+      current,
+      former: team.former || (team.fellows || []).map((member) => ({
+        ...member,
+        role: 'Becario'
+      }))
+    };
+  };
+
+  const renderTeam = (team) => {
+    const normalizedTeam = normalizeTeam(team || {});
+
+    teamInvestigators.innerHTML = '';
+    teamThesisResearchers.innerHTML = '';
+    teamResearchersInTraining.innerHTML = '';
+    teamFormer.innerHTML = '';
+
+    (normalizedTeam.current.investigators || []).forEach((member) => {
+      teamInvestigators.appendChild(createTeamCard(member));
+    });
+
+    (normalizedTeam.current.thesisResearchers || []).forEach((member) => {
+      teamThesisResearchers.appendChild(createTeamCard(member));
+    });
+
+    (normalizedTeam.current.researchersInTraining || []).forEach((member) => {
+      teamResearchersInTraining.appendChild(createTeamCard(member));
+    });
+
+    (normalizedTeam.former || []).forEach((member) => {
+      teamFormer.appendChild(createFormerMemberItem(member));
     });
   };
 

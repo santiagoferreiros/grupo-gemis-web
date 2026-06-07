@@ -471,6 +471,8 @@ h1 { margin: 0 0 26px; max-width: 920px; font-size: clamp(48px, 7vw, 92px); }
 .team-social-scholar { color: #4285f4; background: #fff; border: 1px solid rgba(66, 133, 244, 0.28); box-shadow: 0 12px 26px rgba(66, 133, 244, 0.18); }
 .team-social-scholar:hover { background: #eaf2ff; }
 .team-social-scholar span { font-size: 23px; }
+.team-sections { display: grid; gap: 38px; }
+.team-category-title { margin: 0 0 18px; color: var(--ink); font: 800 clamp(24px, 3vw, 36px)/1.05 "Sora", sans-serif; letter-spacing: -0.055em; text-align: center; }
 .team-group { margin-top: 22px; }
 .team-group .team-grid { padding-top: 0; }
 .member-list { max-width: 900px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin: 0 auto; padding: 0; list-style: none; }
